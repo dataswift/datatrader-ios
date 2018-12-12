@@ -1,0 +1,25 @@
+/**
+ * Copyright (C) 2018 HAT Data Exchange Ltd
+ *
+ * SPDX-License-Identifier: MPL2
+ *
+ * This file is part of the Hub of All Things project (HAT).
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/
+ */
+
+// MARK: Struct
+
+public struct HATFitbitSleepLevelsSummaryObject: HATObject {
+    
+    // MARK: - Variables
+
+    /// The awake state of sleep
+    public var awake: HATFitbitSleepLevelsSummaryCountObject = HATFitbitSleepLevelsSummaryCountObject()
+    /// The asleep state of sleep
+    public var asleep: HATFitbitSleepLevelsSummaryCountObject = HATFitbitSleepLevelsSummaryCountObject()
+    /// The restless state of sleep
+    public var restless: HATFitbitSleepLevelsSummaryCountObject = HATFitbitSleepLevelsSummaryCountObject()
+}

@@ -1,0 +1,26 @@
+/*
+ appPermissions.strings
+ HATApp
+ 
+ Created by Marios-Andreas Tsekis on 30/4/18.
+ Copyright © 2018 Marios-Andreas Tsekis. All rights reserved.
+ */
+
+"namespacewrite %@" = "The app needs to be able to write data in %@ namespace";
+"namespaceread %@" = "The app needs to be able to read data in %@ namespace";
+"datadebit %@" = "This app uses data debit %@ to download your data";
+"applicationmanage %@" = "Manage application %@";
+"managefiles %@" = "Manage files on %@ namespace";
+
+"namespacewrite" = "Write access";
+"namespaceread" = "Read access";
+"datadebit" = "Datadebit access";
+"managefiles" = "Manage files";
+"applicationlist" = "List available applications";
+"applicationmanage" = "Manage application";
+"retrieveapplicationtoken" = "Generate application token";
+"owner" = "Application will have full access";
+"validate" = "Application can validate tokens";
+"unknown" = "unknown"; //shouldn't occur
+"datacredit" = "datacredit"; //phased out, replaced with namespacewrite
+"platform" = "HAT services can access your account";

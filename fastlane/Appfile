@@ -1,0 +1,9 @@
+app_identifier "com.hubofallthings.hatapp" # The bundle identifier of your app
+apple_id "marios4th@yahoo.gr" # Your Apple email address
+
+#dev_portal_team_id "118371096" # Itunes connect Team ID
+itc_team_id "118371096" # Itunes connect Team ID
+team_id "84XHE3A5BA" # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
