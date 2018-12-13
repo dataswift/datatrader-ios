@@ -87,7 +87,7 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
         HATDataOffersService.getAvailableDataOffers(
             userDomain: self.userDomain,
             userToken: userToken,
-            merchants: ["datatraderstaging"],
+            merchants: ["shapeprivate"],
             succesfulCallBack: receivedOffers,
             failCallBack: databuyerOffersError)
     }

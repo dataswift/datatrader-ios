@@ -85,7 +85,7 @@ class OfferDetailsViewController: HATUIViewController, UICollectionViewDelegate,
                 HATDataOffersService.getAvailableDataOffers(
                     userDomain: weakSelf.userDomain,
                     userToken: weakSelf.userToken,
-                    merchants: ["datatraderstaging"],
+                    merchants: ["shapeprivate"],
                     succesfulCallBack: { offers, newToken in
                         
                         guard let dataDebitID = offers.filter({ return $0.dataOfferID == weakSelf.offer?.dataOfferID ?? ""}).first?.claim.dataDebitID else { return }
