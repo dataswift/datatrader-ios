@@ -125,22 +125,22 @@ class AppInfoCollectionViewCell: UICollectionViewCell, UserCredentialsProtocol {
             
             let partOne = NSAttributedString(
                 string: "This app scores an \(rating) rating for data exchange ",
-                attributes: [NSAttributedString.Key.font: UIFont.openSansItalic(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.sectionTextColor])
+                attributes: [NSAttributedString.Key.font: UIFont.oswaldItalic(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.sectionTextColor])
             
             let partTwo = NSAttributedString(
                 string: "Learn more",
-                attributes: [NSAttributedString.Key.font: UIFont.openSansExtrabold(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.selectionColor])
+                attributes: [NSAttributedString.Key.font: UIFont.oswaldBold(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.selectionColor])
             
             self.addGestureRecogniserToRatingLabel()
             self.ratingLabel.attributedText = partOne.combineWith(attributedText: partTwo)
             
             let grade = NSAttributedString(
                 string: rating,
-                attributes: [NSAttributedString.Key.font: UIFont.openSansExtrabold(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.white])
+                attributes: [NSAttributedString.Key.font: UIFont.oswaldBold(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.white])
             
             let rated = NSAttributedString(
                 string: "",
-                attributes: [NSAttributedString.Key.font: UIFont.openSansItalic(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.white])
+                attributes: [NSAttributedString.Key.font: UIFont.oswaldItalic(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.white])
             self.goldRateLabel.attributedText = grade.combineWith(attributedText: rated)
 
             self.rateImageView.isHidden = false
@@ -231,14 +231,14 @@ class AppInfoCollectionViewCell: UICollectionViewCell, UserCredentialsProtocol {
                     
                     xPos = 0
                     
-                    cell.appInfoSectionLabel.font = UIFont.openSansSemibold(ofSize: 13)
-                    cell.dataPreviewSectionLabel.font = UIFont.openSansLight(ofSize: 13)
+                    cell.appInfoSectionLabel.font = UIFont.oswaldBold(ofSize: 13)
+                    cell.dataPreviewSectionLabel.font = UIFont.oswaldLight(ofSize: 13)
                 } else {
                     
                     xPos = cell.dataPreviewSectionLabel.frame.midX - cell.appInfoSectionLabel.frame.midX
                     
-                    cell.appInfoSectionLabel.font = UIFont.openSansLight(ofSize: 13)
-                    cell.dataPreviewSectionLabel.font = UIFont.openSansSemibold(ofSize: 13)
+                    cell.appInfoSectionLabel.font = UIFont.oswaldLight(ofSize: 13)
+                    cell.dataPreviewSectionLabel.font = UIFont.oswaldBold(ofSize: 13)
                 }
                 
                 cell.indicatorCenterAlignmentConstraint.constant = xPos

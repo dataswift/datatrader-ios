@@ -32,7 +32,7 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
         
         self.selectedHATClusterLabel.text = cluster
 
-        self.selectedHATClusterLabel.font = UIFont.openSansSemibold(ofSize: 14)
+        self.selectedHATClusterLabel.font = UIFont.oswaldBold(ofSize: 14)
         self.selectedHATClusterLabel.textColor = .mainColor
     }
     
@@ -273,7 +273,7 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
                 action: #selector(weakSelf.autofillPHATA))
             
             autofillButton.setTitleTextAttributes([
-                NSAttributedString.Key.font: UIFont.openSansLight(ofSize: 18),
+                NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 18),
                 NSAttributedString.Key.foregroundColor: UIColor.white],
                                                   for: .normal)
             toolbar.barTintColor = .mainColor
@@ -301,11 +301,11 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
             
             let substrings = weakSelf.userDomain.split(separator: ".")
             
-            weakSelf.hatNameTextField.font = UIFont.openSansSemibold(ofSize: 14)
+            weakSelf.hatNameTextField.font = UIFont.oswaldBold(ofSize: 14)
             weakSelf.hatNameTextField.text = String(describing: substrings[0])
             weakSelf.selectedHATClusterLabel.text = ".\(String(describing: substrings[1])).\(String(describing: substrings[2]))"
             weakSelf.selectedHATClusterLabel.textColor = .mainColor
-            weakSelf.selectedHATClusterLabel.font = UIFont.openSansSemibold(ofSize: 14)
+            weakSelf.selectedHATClusterLabel.font = UIFont.oswaldBold(ofSize: 14)
 
             weakSelf.hatNameLabel.text = weakSelf.hatNameTextField.text
             weakSelf.hatClusterName.text = weakSelf.selectedHATClusterLabel.text
@@ -408,7 +408,7 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
                 textField.text = self.hatNameLabel.text
                 self.selectedHATClusterLabel.text = self.hatClusterName.text
                 self.selectedHATClusterLabel.textColor = .mainColor
-                self.selectedHATClusterLabel.font = UIFont.openSansSemibold(ofSize: 14)
+                self.selectedHATClusterLabel.font = UIFont.oswaldBold(ofSize: 14)
             }
         } else {
             

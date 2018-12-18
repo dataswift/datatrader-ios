@@ -231,7 +231,7 @@ class PreferencesInterestsTableViewController: UITableViewController, UserCreden
         
         let headerLabel = UILabel(frame: CGRect(x: 16, y: 7, width:
             tableView.bounds.size.width, height: tableView.bounds.size.height))
-        headerLabel.font = UIFont.openSansLight(ofSize: 14)
+        headerLabel.font = UIFont.oswaldLight(ofSize: 14)
         headerLabel.textColor = UIColor.appBlackColor
         headerLabel.text = self.tableView(self.tableView, titleForHeaderInSection: section)
         headerLabel.sizeToFit()

@@ -22,58 +22,44 @@ internal struct FontConstants {
     /**
      * Font name in system:
      *
-     *     OpenSans-Light
+     *     Oswald-Light
      */
-    static let openSansLight: String = "OpenSans-Light"
+    static let oswaldLight: String = "Oswald-Light"
     
     /**
      * Font name in system:
      *
      *     Open Sans
      */
-    static let openSans: String = "OpenSans"
+    static let oswaldRegular: String = "Oswald-Regular"
     
     /**
      * Font name in system:
      *
-     *     OpenSans-Semibold
+     *     Oswald-Semibold
      */
-    static let openSansSemibold: String = "OpenSans-Semibold"
+    static let oswaldSemibold: String = "Oswald-Semibold"
     
     /**
      * Font name in system:
      *
-     *     OpenSans-Bold
+     *     Oswald-Bold
      */
-    static let openSansBold: String = "OpenSans-Bold"
+    static let oswaldBold: String = "Oswald-Bold"
     
     /**
      * Font name in system:
      *
-     *     OpenSans-Extrabold
+     *     Oswald-Extrabold
      */
-    static let openSansExtrabold: String = "OpenSans-Extrabold"
+    static let oswaldExtrabold: String = "Oswald-Extrabold"
     
     /**
      * Font name in system:
      *
-     *     OpenSans-Italic
+     *     Oswald-Italic
      */
-    static let openSansItalic: String = "OpenSans-Italic"
-    
-    /**
-     * Font name in system:
-     *
-     *     OpenSans-Extrabold
-     */
-    static let openSansCondenstBold: String = "OpenSans-CondensedBold"
-    
-    /**
-     * Font name in system:
-     *
-     *     OpenSans-Italic
-     */
-    static let openSansCondenstLight: String = "OpenSans-ExtraboldItalic"
+    static let oswaldItalic: String = "Oswald-Italic"
 }
 
 // MARK: - Extension
@@ -109,9 +95,9 @@ extension UIFont {
      
      - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
      */
-    static func openSansLight(ofSize: CGFloat) -> UIFont {
+    static func oswaldLight(ofSize: CGFloat) -> UIFont {
         
-        return UIFont.getFont(fontName: FontConstants.openSansLight, ofSize: ofSize)
+        return UIFont.getFont(fontName: FontConstants.oswaldLight, ofSize: ofSize)
     }
     
     /**
@@ -121,9 +107,9 @@ extension UIFont {
      
      - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
      */
-    static func openSans(ofSize: CGFloat) -> UIFont {
+    static func oswald(ofSize: CGFloat) -> UIFont {
         
-        return UIFont.getFont(fontName: FontConstants.openSans, ofSize: ofSize)
+        return UIFont.getFont(fontName: FontConstants.oswaldRegular, ofSize: ofSize)
     }
     
     /**
@@ -133,9 +119,9 @@ extension UIFont {
      
      - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
      */
-    static func openSansItalic(ofSize: CGFloat) -> UIFont {
+    static func oswaldItalic(ofSize: CGFloat) -> UIFont {
         
-        return UIFont.getFont(fontName: FontConstants.openSansItalic, ofSize: ofSize)
+        return UIFont.getFont(fontName: FontConstants.oswaldItalic, ofSize: ofSize)
     }
     
     /**
@@ -145,9 +131,9 @@ extension UIFont {
      
      - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
      */
-    static func openSansSemibold(ofSize: CGFloat) -> UIFont {
+    static func oswaldSemibold(ofSize: CGFloat) -> UIFont {
         
-        return UIFont.getFont(fontName: FontConstants.openSansSemibold, ofSize: ofSize)
+        return UIFont.getFont(fontName: FontConstants.oswaldSemibold, ofSize: ofSize)
     }
     
     /**
@@ -157,9 +143,9 @@ extension UIFont {
      
      - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
      */
-    static func openSansBold(ofSize: CGFloat) -> UIFont {
+    static func oswaldBold(ofSize: CGFloat) -> UIFont {
         
-        return UIFont.getFont(fontName: FontConstants.openSansBold, ofSize: ofSize)
+        return UIFont.getFont(fontName: FontConstants.oswaldBold, ofSize: ofSize)
     }
     
     /**
@@ -169,32 +155,8 @@ extension UIFont {
      
      - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
      */
-    static func openSansExtrabold(ofSize: CGFloat) -> UIFont {
+    static func oswaldExtrabold(ofSize: CGFloat) -> UIFont {
         
-        return UIFont.getFont(fontName: FontConstants.openSansExtrabold, ofSize: ofSize)
-    }
-    
-    /**
-     Tries to get the openSansCondenstBold font with the specified size, if it fails it returns the system font of the specified size
-     
-     - parameter ofSize: A CGFloat representing the size of the font
-     
-     - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
-     */
-    static func openSansCondenstBold(ofSize: CGFloat) -> UIFont {
-        
-        return UIFont.getFont(fontName: FontConstants.openSansCondenstBold, ofSize: ofSize)
-    }
-    
-    /**
-     Tries to get the openSansCondenstLigh font with the specified size, if it fails it returns the system font of the specified size
-     
-     - parameter ofSize: A CGFloat representing the size of the font
-     
-     - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
-     */
-    static func openSansCondenstLigh(ofSize: CGFloat) -> UIFont {
-        
-        return UIFont.getFont(fontName: FontConstants.openSansCondenstLight, ofSize: ofSize)
+        return UIFont.getFont(fontName: FontConstants.oswaldExtrabold, ofSize: ofSize)
     }
 }

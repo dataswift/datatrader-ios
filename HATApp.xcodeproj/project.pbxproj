@@ -133,6 +133,12 @@
 		605476E320AECB9100D0CA90 /* WeeklyInsightsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605476E220AECB9100D0CA90 /* WeeklyInsightsCollectionViewCell.swift */; };
 		605476E520AECE5500D0CA90 /* WeeklyInsightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605476E420AECE5500D0CA90 /* WeeklyInsightTableViewCell.swift */; };
 		605476E720B2BC4900D0CA90 /* ApplicationConnectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605476E620B2BC4900D0CA90 /* ApplicationConnectionState.swift */; };
+		6055F95C21C9976500803589 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013E10521C97719007403E2 /* Oswald-Bold.ttf */; };
+		6055F95D21C9976500803589 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013E10621C97719007403E2 /* Oswald-ExtraLight.ttf */; };
+		6055F95E21C9976500803589 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013E10721C97719007403E2 /* Oswald-Light.ttf */; };
+		6055F95F21C9976500803589 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013E10821C97719007403E2 /* Oswald-Medium.ttf */; };
+		6055F96021C9976500803589 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013E10321C97718007403E2 /* Oswald-Regular.ttf */; };
+		6055F96121C9976500803589 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013E10421C97719007403E2 /* Oswald-SemiBold.ttf */; };
 		6056EF671FB7BB88003CE2E7 /* FitbitDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056EF661FB7BB88003CE2E7 /* FitbitDateTableViewCell.swift */; };
 		605AC5E11F9F53CA00F0DDDE /* UserCredentialsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AC5E01F9F53CA00F0DDDE /* UserCredentialsProtocol.swift */; };
 		605AC5E21F9F53CA00F0DDDE /* UserCredentialsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AC5E01F9F53CA00F0DDDE /* UserCredentialsProtocol.swift */; };
@@ -255,19 +261,6 @@
 		60A1EA1D21024DF7006D6F8F /* DataOffersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1EA1C21024DF7006D6F8F /* DataOffersCollectionViewCell.swift */; };
 		60A1EA1F21060F14006D6F8F /* DataOfferStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1EA1E21060F14006D6F8F /* DataOfferStatusManager.swift */; };
 		60A1EA2121063061006D6F8F /* RecentOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1EA2021063061006D6F8F /* RecentOffersViewController.swift */; };
-		60A2731E21B834210049693C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731121B8331E0049693C /* OpenSans-Bold.ttf */; };
-		60A2731F21B834210049693C /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731721B833230049693C /* OpenSans-BoldItalic.ttf */; };
-		60A2732021B834210049693C /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731421B833210049693C /* OpenSans-ExtraBold.ttf */; };
-		60A2732121B834210049693C /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731921B833250049693C /* OpenSans-ExtraBoldItalic.ttf */; };
-		60A2732221B834210049693C /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731321B833200049693C /* OpenSans-Italic.ttf */; };
-		60A2732321B834210049693C /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731221B8331F0049693C /* OpenSans-Light.ttf */; };
-		60A2732421B834210049693C /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731A21B833260049693C /* OpenSans-LightItalic.ttf */; };
-		60A2732521B834210049693C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731621B833230049693C /* OpenSans-Regular.ttf */; };
-		60A2732621B834210049693C /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731521B833220049693C /* OpenSans-Semibold.ttf */; };
-		60A2732721B834210049693C /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731821B833240049693C /* OpenSans-SemiboldItalic.ttf */; };
-		60A2732821B834210049693C /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731D21B833FA0049693C /* OpenSans-CondBold.ttf */; };
-		60A2732921B834210049693C /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731B21B833F80049693C /* OpenSans-CondLight.ttf */; };
-		60A2732A21B834210049693C /* OpenSans-CondLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A2731C21B833F90049693C /* OpenSans-CondLightItalic.ttf */; };
 		60A5FF0F20236C1200D427FF /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A5FF0E20236C1200D427FF /* CacheManager.swift */; };
 		60A6E9801F960FF500E5C96D /* MarkdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A6E97F1F960FF500E5C96D /* MarkdownViewController.swift */; };
 		60A6E9811F960FF500E5C96D /* MarkdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A6E97F1F960FF500E5C96D /* MarkdownViewController.swift */; };
@@ -413,6 +406,12 @@
 		600F896020F64D260098BC92 /* HATSyncObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HATSyncObject.swift; sourceTree = "<group>"; };
 		6010EB4C1FBF5BC900E027CA /* UpdateDateRangeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDateRangeProtocol.swift; sourceTree = "<group>"; };
 		60132F40204989EE002309AB /* SheFeedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheFeedLayout.swift; sourceTree = "<group>"; };
+		6013E10321C97718007403E2 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		6013E10421C97719007403E2 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		6013E10521C97719007403E2 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		6013E10621C97719007403E2 /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6013E10721C97719007403E2 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		6013E10821C97719007403E2 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
 		601431E91FAF62B100B4C1DB /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
 		6016D5C62114B28A0078D37B /* OffersSummaryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersSummaryCollectionViewCell.swift; sourceTree = "<group>"; };
 		6016D66721188EB80078D37B /* OfferAcceptedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferAcceptedViewController.swift; sourceTree = "<group>"; };
@@ -535,19 +534,6 @@
 		60A1EA1C21024DF7006D6F8F /* DataOffersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataOffersCollectionViewCell.swift; sourceTree = "<group>"; };
 		60A1EA1E21060F14006D6F8F /* DataOfferStatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataOfferStatusManager.swift; sourceTree = "<group>"; };
 		60A1EA2021063061006D6F8F /* RecentOffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentOffersViewController.swift; sourceTree = "<group>"; };
-		60A2731121B8331E0049693C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		60A2731221B8331F0049693C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		60A2731321B833200049693C /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
-		60A2731421B833210049693C /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
-		60A2731521B833220049693C /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
-		60A2731621B833230049693C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		60A2731721B833230049693C /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
-		60A2731821B833240049693C /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
-		60A2731921B833250049693C /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		60A2731A21B833260049693C /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
-		60A2731B21B833F80049693C /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
-		60A2731C21B833F90049693C /* OpenSans-CondLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLightItalic.ttf"; sourceTree = "<group>"; };
-		60A2731D21B833FA0049693C /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
 		60A5FF0E20236C1200D427FF /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		60A6E97F1F960FF500E5C96D /* MarkdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownViewController.swift; sourceTree = "<group>"; };
 		60A6E9831F96133600E5C96D /* SafariExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtension.swift; sourceTree = "<group>"; };
@@ -676,19 +662,12 @@
 		600530592063E2FB00DE1014 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				60A2731121B8331E0049693C /* OpenSans-Bold.ttf */,
-				60A2731721B833230049693C /* OpenSans-BoldItalic.ttf */,
-				60A2731421B833210049693C /* OpenSans-ExtraBold.ttf */,
-				60A2731921B833250049693C /* OpenSans-ExtraBoldItalic.ttf */,
-				60A2731321B833200049693C /* OpenSans-Italic.ttf */,
-				60A2731221B8331F0049693C /* OpenSans-Light.ttf */,
-				60A2731A21B833260049693C /* OpenSans-LightItalic.ttf */,
-				60A2731621B833230049693C /* OpenSans-Regular.ttf */,
-				60A2731521B833220049693C /* OpenSans-Semibold.ttf */,
-				60A2731821B833240049693C /* OpenSans-SemiboldItalic.ttf */,
-				60A2731D21B833FA0049693C /* OpenSans-CondBold.ttf */,
-				60A2731B21B833F80049693C /* OpenSans-CondLight.ttf */,
-				60A2731C21B833F90049693C /* OpenSans-CondLightItalic.ttf */,
+				6013E10521C97719007403E2 /* Oswald-Bold.ttf */,
+				6013E10621C97719007403E2 /* Oswald-ExtraLight.ttf */,
+				6013E10721C97719007403E2 /* Oswald-Light.ttf */,
+				6013E10821C97719007403E2 /* Oswald-Medium.ttf */,
+				6013E10321C97718007403E2 /* Oswald-Regular.ttf */,
+				6013E10421C97719007403E2 /* Oswald-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -1215,23 +1194,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A2732A21B834210049693C /* OpenSans-CondLightItalic.ttf in Resources */,
+				6055F95C21C9976500803589 /* Oswald-Bold.ttf in Resources */,
+				6055F95D21C9976500803589 /* Oswald-ExtraLight.ttf in Resources */,
+				6055F95E21C9976500803589 /* Oswald-Light.ttf in Resources */,
+				6055F95F21C9976500803589 /* Oswald-Medium.ttf in Resources */,
+				6055F96021C9976500803589 /* Oswald-Regular.ttf in Resources */,
+				6055F96121C9976500803589 /* Oswald-SemiBold.ttf in Resources */,
 				60DE19AB20977800004D2978 /* appPermissions.strings in Resources */,
-				60A2732721B834210049693C /* OpenSans-SemiboldItalic.ttf in Resources */,
-				60A2732121B834210049693C /* OpenSans-ExtraBoldItalic.ttf in Resources */,
-				60A2732421B834210049693C /* OpenSans-LightItalic.ttf in Resources */,
 				60626E641F850F080092EC0D /* LaunchScreen.storyboard in Resources */,
-				60A2732221B834210049693C /* OpenSans-Italic.ttf in Resources */,
-				60A2731E21B834210049693C /* OpenSans-Bold.ttf in Resources */,
-				60A2732021B834210049693C /* OpenSans-ExtraBold.ttf in Resources */,
-				60A2732921B834210049693C /* OpenSans-CondLight.ttf in Resources */,
-				60A2731F21B834210049693C /* OpenSans-BoldItalic.ttf in Resources */,
 				60626E611F850F080092EC0D /* Assets.xcassets in Resources */,
-				60A2732821B834210049693C /* OpenSans-CondBold.ttf in Resources */,
 				60328CEA1FB3D03B0086D5D2 /* mapstogpx20170220_154311.gpx in Resources */,
-				60A2732321B834210049693C /* OpenSans-Light.ttf in Resources */,
-				60A2732521B834210049693C /* OpenSans-Regular.ttf in Resources */,
-				60A2732621B834210049693C /* OpenSans-Semibold.ttf in Resources */,
 				60626E5F1F850F080092EC0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2017,7 +1989,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 036C6423FD5532A3C6457131 /* Pods-HATApp.release.xcconfig */;
 			buildSettings = {
-				APP_NAME = Datatrader;
+				APP_NAME = "Datatrader Give";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = com.hubofallthings.datatrader;
 				CODE_SIGN_ENTITLEMENTS = "HATApp/HAT Testing.entitlements";
@@ -2185,14 +2157,20 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/HATApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = "$(APP_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;

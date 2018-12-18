@@ -81,7 +81,7 @@ class DataDebitDetailsTableViewCell: UITableViewCell {
         
         if mainViewHeight > self.mainView.frame.size.height && !isExpanded {
             
-            let readmoreFont = UIFont.openSansExtrabold(ofSize: 13)
+            let readmoreFont = UIFont.oswaldBold(ofSize: 13)
             let readmoreFontColor = UIColor.selectionColor
             
             self.descriptionLabel.isUserInteractionEnabled = true

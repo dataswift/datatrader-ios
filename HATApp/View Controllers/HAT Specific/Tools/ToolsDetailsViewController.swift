@@ -73,7 +73,7 @@ class ToolsDetailsViewController: HATUIViewController, UICollectionViewDelegate,
                 
                 let label = UILabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width - 64, height: 16))
                 label.attributedText = self.selectedTool!.info.description.html?.trimString().convertHtml()
-                label.font = UIFont.openSans(ofSize: 13)
+                label.font = UIFont.oswaldLight(ofSize: 13)
                 label.numberOfLines = 0
                 label.isHidden = true
                 let tempStringHeight = label.systemLayoutSizeFitting(label.frame.size, withHorizontalFittingPriority: .defaultHigh, verticalFittingPriority: .defaultLow).height
@@ -102,19 +102,19 @@ class ToolsDetailsViewController: HATUIViewController, UICollectionViewDelegate,
                 
                 if item.content?.text != nil {
                     
-                    return item.content!.text!.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.openSans(ofSize: 13)) + CellSize.image + typeHeight
+                    return item.content!.text!.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.oswaldLight(ofSize: 13)) + CellSize.image + typeHeight
                 } else {
                     
-                    return item.title.text.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.openSans(ofSize: 13)) + CellSize.image + typeHeight
+                    return item.title.text.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.oswaldLight(ofSize: 13)) + CellSize.image + typeHeight
                 }
             }
             
             if item.content?.text != nil {
                 
-                return item.content!.text!.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.openSans(ofSize: 13)) + 100 + typeHeight
+                return item.content!.text!.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.oswaldLight(ofSize: 13)) + 100 + typeHeight
             } else {
                 
-                return item.title.text.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.openSans(ofSize: 13)) + 100 + typeHeight
+                return item.title.text.calculateLabelHeight(maxWidth: UIScreen.main.bounds.width - 100, font: UIFont.oswaldLight(ofSize: 13)) + 100 + typeHeight
             }
         }
     }

@@ -54,10 +54,10 @@ extension UITextField {
         
         if range.location == 0 && range.length == self.text?.count && string == "" {
             
-            self.font = UIFont.openSans(ofSize: 14)
+            self.font = UIFont.oswaldLight(ofSize: 14)
         } else {
             
-            self.font = UIFont.openSansSemibold(ofSize: 14)
+            self.font = UIFont.oswaldBold(ofSize: 14)
         }
     }
 }

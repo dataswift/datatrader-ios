@@ -409,10 +409,10 @@ internal class HATUIViewController: BaseViewController, SideMenuDelegateProtocol
         //change font
         let attrTitleString: NSAttributedString = NSAttributedString(
             string: alertTitle,
-            attributes: [NSAttributedString.Key.font: UIFont.openSansLight(ofSize: 32)])
+            attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 32)])
         let attrMessageString: NSAttributedString = NSAttributedString(
             string: alertMessage,
-            attributes: [NSAttributedString.Key.font: UIFont.openSansLight(ofSize: 32)])
+            attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 32)])
         
         // create the alert
         let alert: UIAlertController = UIAlertController(

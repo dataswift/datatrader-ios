@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UserCredentialsProtocol {
         UINavigationBar.appearance().barTintColor = .white
         UINavigationBar.appearance().backgroundColor = .white
         UINavigationBar.appearance().shadowImage = UIImage()
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font: UIFont.openSansCondenstBold(ofSize: 16)]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font: UIFont.oswaldBold(ofSize: 16)]
         
         // define the interval for background fetch interval
         application.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)

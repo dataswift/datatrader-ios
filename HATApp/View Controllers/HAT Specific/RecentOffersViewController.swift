@@ -42,6 +42,17 @@ class RecentOffersViewController: HATUIViewController, UICollectionViewDelegate,
         super.viewWillAppear(animated)
         
         self.getOffers()
+        self.checkForOnboarding()
+    }
+
+    private func checkForOnboarding() {
+        
+        let result = KeychainManager.getKeychainValue(key: KeychainConstants.newUser)
+        if result != KeychainConstants.Values.setFalse {
+            
+            KeychainManager.setKeychainValue(key: KeychainConstants.newUser, value: KeychainConstants.Values.setFalse)
+            self.navigateToViewControllerWithoutRemovingSuperView(name: ViewControllerNames.launchOnboarding)
+        }
     }
     
     func getOffers() {

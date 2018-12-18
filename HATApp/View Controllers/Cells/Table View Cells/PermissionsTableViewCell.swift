@@ -75,7 +75,7 @@ class PermissionsTableViewCell: UITableViewCell {
 
         if mainViewHeight > CGFloat(normalCellHeight) && !self.isExpanded && cellType == .permissions {
 
-            let readmoreFont = UIFont.openSansExtrabold(ofSize: 13)
+            let readmoreFont = UIFont.oswaldBold(ofSize: 13)
             let readmoreFontColor = UIColor.selectionColor
 
             self.permissionDescriptionLabel.isUserInteractionEnabled = true

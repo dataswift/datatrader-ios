@@ -35,7 +35,7 @@ class ExploreAppsImageCollectionViewCell: UICollectionViewCell {
 
         cell.descriptionLabel.attributedText = description
         // after html convertion font is reseting to default font for some reason
-        cell.descriptionLabel.font = UIFont.openSans(ofSize: 13)
+        cell.descriptionLabel.font = UIFont.oswaldLight(ofSize: 13)
         cell.descriptionLabel.textColor = UIColor.sectionTextColor
         
         return cell

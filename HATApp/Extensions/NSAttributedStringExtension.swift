@@ -46,7 +46,7 @@ extension NSAttributedString {
         
         let textToReturn = NSMutableAttributedString(
             string: "",
-            attributes: [NSAttributedString.Key.font: UIFont.openSans(ofSize: 13)])
+            attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 13)])
         
         for requiredData in requiredDataDefinition {
             
@@ -62,7 +62,7 @@ extension NSAttributedString {
                         
                         let tempString = NSMutableAttributedString(
                             string: "\(endpoint.endpoint)\n",
-                            attributes: [NSAttributedString.Key.font: UIFont.openSansExtrabold(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.mainColor])
+                            attributes: [NSAttributedString.Key.font: UIFont.oswaldBold(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.mainColor])
                         textToReturn.append(tempString)
                         
                         if endpoint.mapping != nil {
@@ -71,7 +71,7 @@ extension NSAttributedString {
                                 
                                 let tempString2 = NSMutableAttributedString(
                                     string: "\t\(item.key)\n",
-                                    attributes: [NSAttributedString.Key.font: UIFont.openSans(ofSize: 13)])
+                                    attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 13)])
                                 
                                 textToReturn.append(tempString2)
                             }
@@ -88,7 +88,7 @@ extension NSAttributedString {
                         
                         let tempString = NSMutableAttributedString(
                             string: "Fields required        \n\n",
-                            attributes: [NSAttributedString.Key.font: UIFont.openSansExtrabold(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.sectionTextColor])
+                            attributes: [NSAttributedString.Key.font: UIFont.oswaldBold(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.sectionTextColor])
                         textToReturn.append(tempString)
                         
                         if endpoint.mapping != nil {
@@ -97,7 +97,7 @@ extension NSAttributedString {
                                 
                                 let tempString2 = NSMutableAttributedString(
                                     string: "\t\(item.key)\n",
-                                    attributes: [NSAttributedString.Key.font: UIFont.openSans(ofSize: 13)])
+                                    attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 13)])
                                 
                                 textToReturn.append(tempString2)
                             }

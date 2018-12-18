@@ -81,8 +81,6 @@ internal class HATSectionsViewController: HATUIViewController, UITableViewDelega
         self.logOutButton.layer.cornerRadius = 5
         
         self.addSwipeRecogniserToShowSideMenu(view: self.tableView)
-        
-        self.setTitle(title: "SETTINGS")
     }
     
     override func viewWillAppear(_ animated: Bool) {

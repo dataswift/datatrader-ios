@@ -109,7 +109,7 @@ internal class ProfileFieldsTableViewCell: UITableViewCell, UITextViewDelegate, 
             
             if self.textView.text == "" {
                 
-                let attributedText = NSAttributedString(string: "Say something nice about yourself for the world to see", attributes: [NSAttributedString.Key.font: UIFont.openSans(ofSize: 14)])
+                let attributedText = NSAttributedString(string: "Say something nice about yourself for the world to see", attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 14)])
                 textView.attributedText = attributedText
                 textView.textColor = .textFieldPlaceHolder
             }
@@ -201,7 +201,7 @@ internal class ProfileFieldsTableViewCell: UITableViewCell, UITextViewDelegate, 
         
         if textView.text == "" {
             
-            let attributedText = NSAttributedString(string: "Say something nice about yourself for the world to see", attributes: [NSAttributedString.Key.font: UIFont.openSans(ofSize: 14)])
+            let attributedText = NSAttributedString(string: "Say something nice about yourself for the world to see", attributes: [NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 14)])
             textView.attributedText = attributedText
             textView.textColor = .textFieldPlaceHolder
         }

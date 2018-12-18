@@ -105,8 +105,8 @@ internal struct SideMenu {
         
         return [["Recent offers": "recentOffersViewController"],
                 ["My offers": "offersViewController"],
-                ["My public profile": "phata"],
-                ["My preferences": "myPreferences"],
+//                ["My public profile": "phata"],
+//                ["My preferences": "myPreferences"],
                 ["Settings": "settings"]]
     }
 }

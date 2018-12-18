@@ -100,13 +100,13 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
         self.selectedOffersIndex = 0
         self.selectionViewLeadingConstraint.constant = 0
         
-        self.acceptedOffersCountLabel.font = UIFont.openSansExtrabold(ofSize: 12)
+        self.acceptedOffersCountLabel.font = UIFont.oswaldBold(ofSize: 12)
         self.acceptedOffersCountLabel.alpha = 1
-        self.acceptedOffersLabel.font = UIFont.openSansSemibold(ofSize: 12)
+        self.acceptedOffersLabel.font = UIFont.oswaldBold(ofSize: 12)
         self.acceptedOffersLabel.alpha = 1
-        self.completedOffersLabel.font = UIFont.openSansLight(ofSize: 12)
+        self.completedOffersLabel.font = UIFont.oswaldLight(ofSize: 12)
         self.completedOffersLabel.alpha = 0.5
-        self.completedOffersCountLabel.font = UIFont.openSansLight(ofSize: 12)
+        self.completedOffersCountLabel.font = UIFont.oswaldLight(ofSize: 12)
         self.completedOffersCountLabel.alpha = 0.5
         
         self.animateLayoutChanges()
@@ -120,13 +120,13 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
         self.selectedOffersIndex = 1
         self.selectionViewLeadingConstraint.constant = self.acceptedOffersButtonView.frame.maxX - self.completedOffersButtonVIew.frame.origin.x - self.selectorView.frame.width
         
-        self.acceptedOffersCountLabel.font = UIFont.openSansLight(ofSize: 12)
+        self.acceptedOffersCountLabel.font = UIFont.oswaldLight(ofSize: 12)
         self.acceptedOffersCountLabel.alpha = 0.5
-        self.acceptedOffersLabel.font = UIFont.openSansLight(ofSize: 12)
+        self.acceptedOffersLabel.font = UIFont.oswaldLight(ofSize: 12)
         self.acceptedOffersLabel.alpha = 0.5
-        self.completedOffersLabel.font = UIFont.openSansSemibold(ofSize: 12)
+        self.completedOffersLabel.font = UIFont.oswaldBold(ofSize: 12)
         self.completedOffersLabel.alpha = 1
-        self.completedOffersCountLabel.font = UIFont.openSansExtrabold(ofSize: 12)
+        self.completedOffersCountLabel.font = UIFont.oswaldBold(ofSize: 12)
         self.completedOffersCountLabel.alpha = 1
         
         self.animateLayoutChanges()

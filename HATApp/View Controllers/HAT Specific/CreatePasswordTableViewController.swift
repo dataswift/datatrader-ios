@@ -285,10 +285,10 @@ internal class CreatePasswordTableViewController: HATUIViewController, UITableVi
         
         if textField.text != "" || ( textField.text == "" && string != "") {
             
-            textField.font = UIFont.openSans(ofSize: 14)
+            textField.font = UIFont.oswaldLight(ofSize: 14)
         } else {
             
-            textField.font = UIFont.openSans(ofSize: 14)
+            textField.font = UIFont.oswaldLight(ofSize: 14)
         }
         
         if textField.tag == zxcvbnTextFieldTag {

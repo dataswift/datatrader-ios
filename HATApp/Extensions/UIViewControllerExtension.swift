@@ -223,7 +223,7 @@ extension UIViewController {
         
         let label: UILabel = UILabel()
         label.text = title
-        label.font = .openSans(ofSize: 14)
+        label.font = .oswaldLight(ofSize: 14)
         label.textColor = .white
         self.navigationItem.titleView = label
     }

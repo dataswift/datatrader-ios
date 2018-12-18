@@ -342,7 +342,7 @@ internal class AccountSettingsViewController: HATUIViewController, UITableViewDe
             let width = UIScreen.main.bounds.width - 114
             let height: CGFloat = 50
             let tempTextView = UITextView(frame: CGRect(x: 0.0, y: 0.0, width: width, height: height))
-            tempTextView.font = UIFont.openSans(ofSize: 14)
+            tempTextView.font = UIFont.oswaldLight(ofSize: 14)
             tempTextView.text = text
             
             let calculatedSize = tempTextView.systemLayoutSizeFitting(CGSize(width: width, height: height), withHorizontalFittingPriority: .defaultHigh, verticalFittingPriority: .defaultLow).height
