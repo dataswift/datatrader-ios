@@ -31,7 +31,7 @@ public struct HATGoogleCalendarService {
      */
     public static func getAppTokenForGoogleCalendar(plug: HATDataPlugObject, userDomain: String, userToken: String, successful: @escaping (String, String?) -> Void, failed: @escaping (JSONParsingError) -> Void) {
         
-        HATService.getApplicationTokenFor(
+        HATService.getApplicationTokenLegacyFor(
             serviceName: plug.plug.name,
             userDomain: userDomain,
             userToken: userToken,

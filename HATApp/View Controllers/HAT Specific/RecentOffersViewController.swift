@@ -61,7 +61,7 @@ class RecentOffersViewController: HATUIViewController, UICollectionViewDelegate,
         HATDataOffersService.getAvailableDataOffers(
             userDomain: self.userDomain,
             userToken: userToken,
-            merchants: ["shapeprivate"],
+            merchants: ["datatrader"],
             succesfulCallBack: receivedOffers,
             failCallBack: databuyerOffersError)
     }

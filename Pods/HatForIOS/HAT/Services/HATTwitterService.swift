@@ -107,7 +107,7 @@ public struct HATTwitterService {
      */
     public static func getAppTokenForTwitter(plug: HATDataPlugObject, userDomain: String, userToken: String, successful: @escaping (String, String?) -> Void, failed: @escaping (JSONParsingError) -> Void) {
         
-        HATService.getApplicationTokenFor(
+        HATService.getApplicationTokenLegacyFor(
             serviceName: plug.plug.name,
             userDomain: userDomain,
             userToken: userToken,

@@ -145,7 +145,7 @@ public struct HATFacebookService {
      */
     public static func getAppTokenForFacebook(plug: HATDataPlugObject, token: String, userDomain: String, successful: @escaping (String, String?) -> Void, failed: @escaping (JSONParsingError) -> Void) {
         
-        HATService.getApplicationTokenFor(
+        HATService.getApplicationTokenLegacyFor(
             serviceName: plug.plug.name,
             userDomain: userDomain,
             userToken: token,

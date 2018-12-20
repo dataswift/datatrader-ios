@@ -33,12 +33,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiI-0l-0nQ">
-                                        <rect key="frame" x="48" y="678" width="279" height="50"/>
+                                        <rect key="frame" x="48" y="675" width="279" height="50"/>
                                         <color key="backgroundColor" red="0.93725490196078431" green="0.76862745098039209" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Iic-53-SRt"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <state key="normal" title="LOG IN">
                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -52,8 +52,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9N-8U-2ZE">
-                                        <rect key="frame" x="143.66666666666666" y="753" width="88" height="33"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                        <rect key="frame" x="137.66666666666666" y="750" width="100" height="36"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                         <state key="normal" title="Create account">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -62,16 +62,16 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAT Blue" translatesAutoresizingMaskIntoConstraints="NO" id="Hs2-f7-eTd">
-                                        <rect key="frame" x="83" y="93" width="209" height="100"/>
+                                        <rect key="frame" x="83" y="93" width="209" height="116"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service of HATLAB" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hap-2h-RCf">
-                                        <rect key="frame" x="130.33333333333334" y="293" width="114.33333333333334" height="27"/>
+                                        <rect key="frame" x="130.33333333333334" y="309" width="114.33333333333334" height="27"/>
                                         <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Navigation Bar Logo" translatesAutoresizingMaskIntoConstraints="NO" id="alE-Ub-fhg">
-                                        <rect key="frame" x="62.666666666666671" y="220" width="249.66666666666663" height="61"/>
+                                        <rect key="frame" x="62.666666666666671" y="236" width="249.66666666666663" height="61"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="61" id="3au-sJ-aWx"/>
                                         </constraints>
@@ -254,7 +254,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="o4D-Yw-vHV"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                         <state key="normal" title="Close">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -279,7 +279,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="OzN-TN-dFi"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                         <state key="normal" title="About">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -400,7 +400,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="7TO-TI-Aaf"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                         <state key="normal" title="NEXT">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -414,14 +414,14 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyY-KI-jcc">
-                                                        <rect key="frame" x="32" y="346" width="310" height="47.666666666666686"/>
+                                                        <rect key="frame" x="32" y="346" width="310" height="41"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="After tapping 'next' you will be re-directed to your HAT to enter your password">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <font key="NSFont" size="16" name="Oswald-Light"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <font key="NSFont" metaFont="system" size="15"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -431,7 +431,7 @@
                                                         <rect key="frame" x="0.0" y="82" width="373" height="94"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfm-9q-qYs">
-                                                                <rect key="frame" x="72.333333333333329" y="8" width="227.33333333333337" height="91"/>
+                                                                <rect key="frame" x="75" y="8" width="222" height="91"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAT Blue" translatesAutoresizingMaskIntoConstraints="NO" id="gCX-vz-mWj">
                                                                         <rect key="frame" x="8" y="14" width="65" height="65"/>
@@ -440,14 +440,14 @@
                                                                             <constraint firstAttribute="width" constant="65" id="v97-3g-VmV"/>
                                                                         </constraints>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="yourhatname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HOT-bR-kP7">
-                                                                        <rect key="frame" x="89.666666666666686" y="23.000000000000004" width="118" height="32.333333333333343"/>
-                                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="yourhatname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HOT-bR-kP7">
+                                                                        <rect key="frame" x="89.666666666666657" y="23" width="112.66666666666666" height="27"/>
+                                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="21"/>
                                                                         <color key="textColor" red="0.29411764705882354" green="0.33333333333333331" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text=".yourhatdomain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="O1v-bT-CK8">
-                                                                        <rect key="frame" x="89" y="53.333333333333343" width="118.66666666666669" height="18.666666666666671"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".yourhatdomain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="O1v-bT-CK8">
+                                                                        <rect key="frame" x="89" y="48" width="113.33333333333331" height="24"/>
                                                                         <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
                                                                         <color key="textColor" red="0.29411764705882354" green="0.33333333333333331" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -470,6 +470,7 @@
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="height" constant="94" id="176-v8-HxB"/>
                                                             <constraint firstItem="hfm-9q-qYs" firstAttribute="top" secondItem="TLd-91-88y" secondAttribute="top" constant="8" id="4Bb-X6-9Z6"/>
                                                             <constraint firstItem="hfm-9q-qYs" firstAttribute="centerY" secondItem="TLd-91-88y" secondAttribute="centerY" constant="6.5" id="LBJ-BT-acF"/>
                                                             <constraint firstItem="hfm-9q-qYs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TLd-91-88y" secondAttribute="leading" constant="8" id="N8u-W2-fK8"/>
@@ -528,18 +529,18 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoU-Ii-pdH">
-                                                        <rect key="frame" x="80.000000000000014" y="28" width="213.33333333333337" height="44"/>
+                                                        <rect key="frame" x="63.333333333333329" y="28" width="246.33333333333337" height="44"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Service Error Pink" translatesAutoresizingMaskIntoConstraints="NO" id="UgV-16-7Js">
-                                                                <rect key="frame" x="8" y="10" width="24" height="24"/>
+                                                                <rect key="frame" x="7.9999999999999929" y="10" width="24" height="24"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="24" id="FlK-u9-Ass"/>
                                                                     <constraint firstAttribute="height" constant="24" id="O25-MZ-Sf5"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry that HAT name doesn’t exist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Rx-zW-2g9">
-                                                                <rect key="frame" x="42" y="14" width="161.33333333333334" height="16"/>
-                                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                                <rect key="frame" x="41.999999999999986" y="14" width="194.33333333333331" height="16"/>
+                                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                 <color key="textColor" red="0.88235294117647056" green="0.41176470588235292" blue="0.51764705882352946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -651,7 +652,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GSe-dC-N1o">
                                             <rect key="frame" x="16" y="0.0" width="343" height="49.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="15"/>
                                             <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -706,7 +707,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="24" id="RIs-vX-0Nk"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="20"/>
                                         <color key="textColor" red="0.2901960784" green="0.33333333329999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -787,12 +788,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGK-ry-9SK">
-                                                <rect key="frame" x="48" y="565" width="279" height="50"/>
+                                                <rect key="frame" x="48" y="562" width="279" height="50"/>
                                                 <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="5ec-4a-Z1w"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <state key="normal" title="NEXT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -810,14 +811,14 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hat.direct" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uji-Nc-u75">
-                                                        <rect key="frame" x="92" y="66" width="92.666666666666686" height="24"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                        <rect key="frame" x="92" y="66" width="92.666666666666686" height="31.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="21"/>
                                                         <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yourname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BxD-Qp-WSt">
                                                         <rect key="frame" x="92" y="29.000000000000004" width="92.666666666666686" height="34.333333333333343"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="23"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="23"/>
                                                         <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -837,8 +838,8 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYb-Xb-cR5">
-                                                <rect key="frame" x="119.66666666666669" y="634" width="136" height="33"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                <rect key="frame" x="110" y="631" width="155" height="36"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                 <state key="normal" title="Have an account? Login">
                                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -847,23 +848,23 @@
                                                 </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your domain name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BfK-YA-TH4">
-                                                <rect key="frame" x="-1" y="179" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="191" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="CDX-pi-cJf"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue" textContentType="username"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vp9-UU-z68">
-                                                <rect key="frame" x="20" y="249.00000000000003" width="335" height="71.333333333333343"/>
+                                                <rect key="frame" x="20" y="261" width="335" height="71.666666666666686"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">It can only contain alphanumeric characters (cannot start with a number or have caps). The entire domain name has to be between 4 and 22 characters in length.</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="16" name="Oswald-Light"/>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
@@ -871,12 +872,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLB-LK-Wvt">
-                                                <rect key="frame" x="20" y="135" width="335" height="24"/>
+                                                <rect key="frame" x="20" y="135" width="335" height="36"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Please choose your HAT microserver domain name.">
                                                         <attributes>
                                                             <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="16" name="Oswald-Light"/>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -957,12 +958,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbv-H8-rQn">
-                                                <rect key="frame" x="47.666666666666657" y="8" width="280" height="24"/>
+                                                <rect key="frame" x="47.666666666666657" y="8" width="280" height="36"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Passwords must be marked with score 3 or Higher. ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="16" name="Oswald-Light"/>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -970,17 +971,17 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Di2-qb-v2F">
-                                                <rect key="frame" x="0.0" y="40.666666666666657" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="52.666666666666657" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="tzU-Ex-M5N"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rsi-Xu-18Q">
-                                                <rect key="frame" x="20" y="97.666666666666657" width="335" height="40"/>
+                                                <rect key="frame" x="20" y="109.66666666666666" width="335" height="40"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sJv-ie-nFY">
                                                         <rect key="frame" x="0.0" y="8" width="335" height="5"/>
@@ -1025,12 +1026,12 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvP-Sp-ag9">
-                                                <rect key="frame" x="48" y="555" width="279" height="50"/>
+                                                <rect key="frame" x="48" y="552" width="279" height="50"/>
                                                 <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="fqA-Ph-RWk"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <state key="normal" title="NEXT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -1039,8 +1040,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qQ-hi-47A">
-                                                <rect key="frame" x="119.66666666666669" y="636" width="136" height="33"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                <rect key="frame" x="110" y="633" width="155" height="36"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                 <state key="normal" title="Have an account? Login">
                                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -1048,8 +1049,8 @@
                                                     <action selector="logInButtonAction:" destination="oV7-Q2-hNV" eventType="touchUpInside" id="bAq-wR-l7I"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pYZ-OB-10y">
-                                                <rect key="frame" x="20" y="139.66666666666669" width="335" height="213.66666666666669"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYZ-OB-10y">
+                                                <rect key="frame" x="20" y="151.66666666666669" width="335" height="213.66666666666669"/>
                                                 <string key="text">Your data is precious – keep it safe with a password that is Strong or Very Strong on this scale.
 
 Example: unicorn-coffee-taco
@@ -1151,7 +1152,7 @@ A combination of three random words is one of the strongest passwords, and the k
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE HAT ACCOUNT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syI-Xt-6RV">
                                 <rect key="frame" x="101.33333333333333" y="172" width="172.66666666666669" height="32.666666666666657"/>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1276,12 +1277,12 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIP. You can do more with your HAT on a web browser. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YN-fB-tGU" userLabel="TIP. You can do more with your HAT on a web browser.">
-                                                        <rect key="frame" x="51.000000000000014" y="208.66666666666669" width="193.33333333333337" height="41.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                        <rect key="frame" x="61" y="208.66666666666669" width="207" height="44.666666666666657"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xF-y2-7SJ">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xF-y2-7SJ">
                                                         <rect key="frame" x="0.0" y="8" width="301" height="250"/>
                                                         <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -1315,7 +1316,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <constraint firstItem="tS5-Eu-aQM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7rZ-Iy-HOu" secondAttribute="leading" id="dWx-b9-4UM"/>
                                                     <constraint firstItem="2xF-y2-7SJ" firstAttribute="top" secondItem="X3a-Ng-uFK" secondAttribute="top" constant="8" id="hHU-DD-Ujg"/>
                                                     <constraint firstItem="tS5-Eu-aQM" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8YN-fB-tGU" secondAttribute="leading" id="iIA-0p-bDf"/>
-                                                    <constraint firstItem="aRg-S4-CUb" firstAttribute="centerX" secondItem="8YN-fB-tGU" secondAttribute="centerX" id="odp-1p-PAJ"/>
+                                                    <constraint firstItem="aRg-S4-CUb" firstAttribute="centerX" secondItem="8YN-fB-tGU" secondAttribute="centerX" constant="-17" id="odp-1p-PAJ"/>
                                                     <constraint firstItem="7OB-qH-Mvg" firstAttribute="leading" secondItem="X3a-Ng-uFK" secondAttribute="leading" constant="2" id="p9b-PX-J5m"/>
                                                     <constraint firstItem="2xF-y2-7SJ" firstAttribute="leading" secondItem="X3a-Ng-uFK" secondAttribute="leading" id="pWg-ix-vAv"/>
                                                     <constraint firstItem="aRg-S4-CUb" firstAttribute="top" secondItem="tS5-Eu-aQM" secondAttribute="bottom" constant="18" id="rBN-ul-Ffy"/>
@@ -1337,13 +1338,13 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hatname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dQT-et-riX">
                                                         <rect key="frame" x="83" y="16.999999999999996" width="85.333333333333314" height="35.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="24"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="24"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".hubofallthings.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oef-aJ-LcI">
-                                                        <rect key="frame" x="83" y="60.666666666666671" width="100.33333333333331" height="24"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                        <rect key="frame" x="83" y="60.666666666666671" width="112.66666666666669" height="27"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1367,7 +1368,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="UZR-7q-rWz"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                                 <state key="normal" title="LOGIN TO YOUR HAT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1418,11 +1419,161 @@ A combination of three random words is one of the strongest passwords, and the k
                         <outlet property="hatClusterLabel" destination="Oef-aJ-LcI" id="dS8-Iq-ukk"/>
                         <outlet property="hatNameLabel" destination="dQT-et-riX" id="Snx-lp-QLq"/>
                         <outlet property="tipLabel" destination="8YN-fB-tGU" id="2b6-Qk-yz0"/>
+                        <segue destination="lGH-oo-J9r" kind="show" identifier="newHatDataPlugsSegue" id="QhM-9D-DRc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eFj-ni-SuK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-428" y="3811"/>
+        </scene>
+        <!--DATA PLUGS-->
+        <scene sceneID="xoX-TD-OB3">
+            <objects>
+                <viewController id="lGH-oo-J9r" customClass="ConnectDataPlugsViewController" customModule="Datatrader_Give" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qoh-RP-Ldp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vk3-sW-had">
+                                <rect key="frame" x="0.0" y="117" width="375" height="596"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oXg-N3-dGP">
+                                    <size key="itemSize" width="385" height="60"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="dataPlugOnboardingCell" id="0BH-pT-xlS" customClass="DataPlugsCollectionViewCell" customModule="Datatrader_Give" customModuleProvider="target">
+                                        <rect key="frame" x="-5" y="0.0" width="385" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="385" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qi0-i0-Fq6">
+                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="gAj-Rp-JyO"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc9-yR-LrQ">
+                                                    <rect key="frame" x="67" y="5" width="32.666666666666657" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ha-sb-WN6">
+                                                    <rect key="frame" x="68" y="25" width="259" height="35"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="12"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdm-le-CBK">
+                                                    <rect key="frame" x="343" y="19" width="22" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="22" id="sHh-7l-3bX"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Lc9-yR-LrQ" firstAttribute="top" secondItem="0BH-pT-xlS" secondAttribute="topMargin" constant="-3" id="8Lp-qm-mGm"/>
+                                            <constraint firstItem="Qi0-i0-Fq6" firstAttribute="bottom" secondItem="1Ha-sb-WN6" secondAttribute="bottom" id="D0b-Lj-8pO"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Sdm-le-CBK" secondAttribute="trailing" constant="12" id="E6Z-Sf-Zd2"/>
+                                            <constraint firstItem="Lc9-yR-LrQ" firstAttribute="leading" secondItem="Qi0-i0-Fq6" secondAttribute="trailing" constant="7" id="EZV-3F-SvM"/>
+                                            <constraint firstItem="1Ha-sb-WN6" firstAttribute="top" secondItem="0BH-pT-xlS" secondAttribute="topMargin" constant="17" id="HYc-rK-HMD"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Lc9-yR-LrQ" secondAttribute="bottom" constant="26" id="LK5-LA-Cz3"/>
+                                            <constraint firstItem="Sdm-le-CBK" firstAttribute="leading" secondItem="1Ha-sb-WN6" secondAttribute="trailing" constant="16" id="cfD-8T-jVE"/>
+                                            <constraint firstItem="Qi0-i0-Fq6" firstAttribute="centerY" secondItem="Sdm-le-CBK" secondAttribute="centerY" id="dSd-9F-wLt"/>
+                                            <constraint firstItem="Qi0-i0-Fq6" firstAttribute="top" secondItem="0BH-pT-xlS" secondAttribute="top" id="iGs-N2-Guy"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Lc9-yR-LrQ" secondAttribute="trailing" symbolic="YES" id="ipj-kp-t78"/>
+                                            <constraint firstAttribute="bottom" secondItem="Qi0-i0-Fq6" secondAttribute="bottom" id="qqH-pr-T62"/>
+                                            <constraint firstItem="1Ha-sb-WN6" firstAttribute="leading" secondItem="Qi0-i0-Fq6" secondAttribute="trailing" constant="8" symbolic="YES" id="uI4-to-uxs"/>
+                                            <constraint firstItem="Qi0-i0-Fq6" firstAttribute="leading" secondItem="0BH-pT-xlS" secondAttribute="leading" id="xqo-ZL-ZxX"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="plugButton" destination="Sdm-le-CBK" id="oio-ka-aKr"/>
+                                            <outlet property="plugDescription" destination="1Ha-sb-WN6" id="6OU-dt-HxE"/>
+                                            <outlet property="plugImageView" destination="Qi0-i0-Fq6" id="sjN-Wg-WeP"/>
+                                            <outlet property="plugTitle" destination="Lc9-yR-LrQ" id="q1r-ZC-Dqn"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the data plug/s you would like to pull in and claim your personal data from.  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIZ-fX-6Po">
+                                <rect key="frame" x="57" y="61" width="261" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="T4J-6D-F0h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7D-Pr-3xB">
+                                <rect key="frame" x="0.0" y="638" width="375" height="140"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlQ-RU-TFh">
+                                        <rect key="frame" x="254" y="16" width="108" height="108"/>
+                                        <state key="normal" image="Arrow forward"/>
+                                        <connections>
+                                            <action selector="continueButtonAction:" destination="lGH-oo-J9r" eventType="touchUpInside" id="knh-oF-YeA"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 DATA PLUGS CONNECTED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1O-SM-gI4">
+                                        <rect key="frame" x="8" y="8" width="172.33333333333334" height="24"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Connect more plugs or continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85f-Jx-1NY">
+                                        <rect key="frame" x="8" y="43" width="183.66666666666666" height="89"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="H1O-SM-gI4" firstAttribute="top" secondItem="i7D-Pr-3xB" secondAttribute="topMargin" id="9Zx-Fv-2YM"/>
+                                    <constraint firstAttribute="trailing" secondItem="hlQ-RU-TFh" secondAttribute="trailing" constant="13" id="AeF-ye-Z0t"/>
+                                    <constraint firstItem="H1O-SM-gI4" firstAttribute="leading" secondItem="85f-Jx-1NY" secondAttribute="leading" id="AsR-7u-nN6"/>
+                                    <constraint firstItem="hlQ-RU-TFh" firstAttribute="top" secondItem="i7D-Pr-3xB" secondAttribute="top" constant="16" id="Htz-eI-uCh"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="H1O-SM-gI4" secondAttribute="trailingMargin" id="K71-gK-xd3"/>
+                                    <constraint firstItem="hlQ-RU-TFh" firstAttribute="centerY" secondItem="i7D-Pr-3xB" secondAttribute="centerY" id="Kjb-pA-mrP"/>
+                                    <constraint firstItem="H1O-SM-gI4" firstAttribute="leading" secondItem="i7D-Pr-3xB" secondAttribute="leadingMargin" id="OVM-J9-Cdi"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="85f-Jx-1NY" secondAttribute="trailing" constant="20" symbolic="YES" id="RFk-8u-RO2"/>
+                                    <constraint firstItem="85f-Jx-1NY" firstAttribute="top" secondItem="H1O-SM-gI4" secondAttribute="bottom" constant="11" id="bS2-za-R7K"/>
+                                    <constraint firstItem="85f-Jx-1NY" firstAttribute="bottom" secondItem="i7D-Pr-3xB" secondAttribute="bottomMargin" id="kGx-Ft-es9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i7D-Pr-3xB" firstAttribute="bottom" secondItem="52Q-tq-s09" secondAttribute="bottom" id="EWY-VA-ZI8"/>
+                            <constraint firstItem="52Q-tq-s09" firstAttribute="bottom" secondItem="vk3-sW-had" secondAttribute="bottom" constant="65" id="Eiy-Gt-E2B"/>
+                            <constraint firstItem="oIZ-fX-6Po" firstAttribute="leading" secondItem="52Q-tq-s09" secondAttribute="leading" constant="57" id="TbF-b7-FB7"/>
+                            <constraint firstItem="oIZ-fX-6Po" firstAttribute="centerX" secondItem="vk3-sW-had" secondAttribute="centerX" id="Xb7-6x-yPh"/>
+                            <constraint firstItem="vk3-sW-had" firstAttribute="trailing" secondItem="i7D-Pr-3xB" secondAttribute="trailing" id="aeh-rw-xqn"/>
+                            <constraint firstItem="vk3-sW-had" firstAttribute="leading" secondItem="i7D-Pr-3xB" secondAttribute="leading" id="jYl-Tx-vg1"/>
+                            <constraint firstItem="vk3-sW-had" firstAttribute="leading" secondItem="52Q-tq-s09" secondAttribute="leading" id="m6M-vA-sXX"/>
+                            <constraint firstItem="vk3-sW-had" firstAttribute="top" secondItem="oIZ-fX-6Po" secondAttribute="bottom" constant="8" symbolic="YES" id="n0X-o5-3ki"/>
+                            <constraint firstItem="52Q-tq-s09" firstAttribute="trailing" secondItem="vk3-sW-had" secondAttribute="trailing" id="qgJ-60-mI1"/>
+                            <constraint firstItem="oIZ-fX-6Po" firstAttribute="top" secondItem="52Q-tq-s09" secondAttribute="top" constant="17" id="why-Uo-oYr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="52Q-tq-s09"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="DATA PLUGS" id="mko-zp-R5U"/>
+                    <connections>
+                        <outlet property="collectionView" destination="vk3-sW-had" id="jXj-bp-Ovj"/>
+                        <outlet property="totalPlugsConnectedLabel" destination="H1O-SM-gI4" id="We3-Uq-j7d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAs-Gv-ZUP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428" y="4717"/>
         </scene>
         <!--Enable Locations View Controller-->
         <scene sceneID="vn0-93-f8t">
@@ -1436,12 +1587,12 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNk-Cp-yeC">
-                                        <rect key="frame" x="53" y="104.66666666666667" width="269" height="52.666666666666671"/>
+                                        <rect key="frame" x="53" y="104.66666666666669" width="269" height="67.333333333333314"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Bring your device location data into your HAT microserver for you to own your location data">
                                                 <attributes>
                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                    <font key="NSFont" size="16" name="Oswald-Light"/>
+                                                    <font key="NSFont" metaFont="system" size="16"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -1450,7 +1601,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTk-B5-P68">
                                         <rect key="frame" x="125" y="65" width="125" height="29.666666666666671"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1473,7 +1624,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lI-mh-KFS">
                                                 <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="44"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <state key="normal" title="DO NOT ALLOW">
                                                     <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -1484,7 +1635,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKk-1J-AFW">
                                                 <rect key="frame" x="182.66666666666663" y="0.0" width="162.33333333333337" height="44"/>
                                                 <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <state key="normal" title="ALLOW">
                                                     <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -1544,7 +1695,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="W1k-Yw-Qj4">
-                                                <rect key="frame" x="-1" y="129.33333333333334" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="112" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="l6N-Bp-GBi"/>
@@ -1554,13 +1705,13 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next" textContentType="given-name"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pM3-Ys-r8T">
-                                                <rect key="frame" x="20" y="28" width="335" height="71.333333333333329"/>
+                                                <rect key="frame" x="20" y="28" width="335" height="54"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">This  information is purely used to create your HAT. Your personal information will never be shared with anyone unless you authorise it</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="16" name="Oswald-Light"/>
+                                                            <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -1568,7 +1719,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-DZ-F1x">
-                                                <rect key="frame" x="-1" y="179.33333333333331" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="162" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="yzy-vb-1m0"/>
@@ -1578,7 +1729,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next" textContentType="family-name"/>
                                             </textField>
                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="gbe-ID-nYE">
-                                                <rect key="frame" x="-1" y="229.33333333333331" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="212" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="WQW-5y-Iz1"/>
@@ -1593,7 +1744,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="DMQ-Qi-cbg"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <state key="normal" title="NEXT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -1602,11 +1753,11 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbw-Lt-kTz">
-                                                <rect key="frame" x="119.66666666666669" y="638" width="136" height="32"/>
+                                                <rect key="frame" x="110" y="638" width="155" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="Gjw-Ky-cLu"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                 <state key="normal" title="Have an account? Login">
                                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -1675,7 +1826,7 @@ A combination of three random words is one of the strongest passwords, and the k
             </objects>
             <point key="canvasLocation" x="-429.375" y="789.08450704225356"/>
         </scene>
-        <!--SETTINGS-->
+        <!--Sections View Controller-->
         <scene sceneID="KgI-jC-9AA">
             <objects>
                 <viewController id="5Cx-Wx-hOG" customClass="HATSectionsViewController" customModule="Datatrader_Give" customModuleProvider="target" sceneMemberID="viewController">
@@ -1699,7 +1850,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fdesfsdfsdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP2-kJ-8ba">
                                                             <rect key="frame" x="125.66666666666666" y="56" width="109" height="35.666666666666657"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="24"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="24"/>
                                                             <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -1716,7 +1867,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </progressView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0% of 1GB storage used " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIr-Nc-WUq">
                                                             <rect key="frame" x="113.66666666666667" y="134" width="132.66666666666663" height="19.333333333333343"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="13"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -1842,7 +1993,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <subviews>
                                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zdR-T6-cEc">
                                                             <rect key="frame" x="0.0" y="9.3333333333333357" width="51" height="31"/>
-                                                            <color key="onTintColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="onTintColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <connections>
                                                                 <action selector="switchChanged:" destination="KBi-ZI-VIy" eventType="valueChanged" id="hfw-FC-Bkv"/>
                                                             </connections>
@@ -1878,7 +2029,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn4-Zm-J0A">
                                         <rect key="frame" x="117.66666666666669" y="16.666666666666629" width="140" height="44"/>
-                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="hCb-iX-DhK"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="heq-MJ-qgM"/>
@@ -1915,7 +2066,7 @@ A combination of three random words is one of the strongest passwords, and the k
                         <viewLayoutGuide key="safeArea" id="Fmq-pc-D5z"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="SETTINGS" id="wrH-Yt-YfG">
+                    <navigationItem key="navigationItem" id="wrH-Yt-YfG">
                         <barButtonItem key="backBarButtonItem" title=" " id="Poi-aT-C7T"/>
                         <barButtonItem key="leftBarButtonItem" style="done" id="TOx-8a-VOr">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KxS-V3-9qa">
@@ -2000,21 +2151,21 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oc4-ox-04M">
-                                                            <rect key="frame" x="63" y="18.333333333333332" width="247" height="48.333333333333343"/>
+                                                            <rect key="frame" x="63" y="20.333333333333332" width="247" height="44.666666666666671"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJM-RA-mij">
                                                                     <rect key="frame" x="10.000000000000002" y="0.0" width="30.666666666666671" height="21"/>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeE-k1-1of">
-                                                                    <rect key="frame" x="9.9999999999999982" y="29.000000000000007" width="23.333333333333329" height="19.333333333333336"/>
+                                                                    <rect key="frame" x="10" y="29.000000000000004" width="33" height="15.666666666666668"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Label">
                                                                             <attributes>
                                                                                 <color key="NSColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                <font key="NSFont" size="13" name="Oswald-Light"/>
+                                                                                <font key="NSFont" metaFont="system"/>
                                                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                             </attributes>
                                                                         </fragment>
@@ -2073,7 +2224,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add new data plugs to your account, or view data from existing plugs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91W-DH-HjK">
                                         <rect key="frame" x="55.666666666666657" y="198" width="264" height="38.666666666666657"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2261,7 +2412,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="40f-57-gi5"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="22"/>
                                         <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2320,11 +2471,11 @@ A combination of three random words is one of the strongest passwords, and the k
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wb-QE-iq3">
                                 <rect key="frame" x="85" y="707" width="205" height="50"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="3NH-iM-u6B"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <state key="normal" title="RESET PASSWORD">
                                     <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2442,7 +2593,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gqp-Zx-DOq">
                                                     <rect key="frame" x="16" y="3" width="343" height="30"/>
                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
@@ -2507,10 +2658,10 @@ A combination of three random words is one of the strongest passwords, and the k
                     <navigationItem key="navigationItem" title="MY PROFILE" id="z1w-Jl-muc">
                         <barButtonItem key="backBarButtonItem" title=" " id="Xae-e5-qgr"/>
                         <barButtonItem key="rightBarButtonItem" style="done" id="ijn-8g-tkq">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xmn-jH-X8r">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xmn-jH-X8r">
                                 <rect key="frame" x="309" y="5.6666666666666679" width="50" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -2559,10 +2710,10 @@ A combination of three random words is one of the strongest passwords, and the k
                     </tableView>
                     <navigationItem key="navigationItem" title="INTERESTS" id="HRA-zC-swL">
                         <barButtonItem key="rightBarButtonItem" style="done" id="7ww-B9-lT6">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G2B-XD-mb6">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G2B-XD-mb6">
                                 <rect key="frame" x="309" y="5.6666666666666679" width="50" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -2753,10 +2904,10 @@ A combination of three random words is one of the strongest passwords, and the k
                     </tableView>
                     <navigationItem key="navigationItem" title="PRIORITIES" id="nIh-qp-yxb">
                         <barButtonItem key="rightBarButtonItem" style="done" id="KMN-S7-82h">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SbY-lz-ZWP">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SbY-lz-ZWP">
                                 <rect key="frame" x="309" y="5.6666666666666679" width="50" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -2794,10 +2945,10 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <constraint firstAttribute="height" constant="29" id="8zK-Jl-lrO"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="84" id="QmY-VB-HbE"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                 <inset key="imageEdgeInsets" minX="10" minY="7" maxX="58" maxY="7"/>
                                                 <state key="normal" title="Filter" image="Filter">
-                                                    <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="filterButtonAction:" destination="kER-T8-Cdk" eventType="touchUpInside" id="e7B-zn-03r"/>
@@ -2881,7 +3032,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                             <subviews>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSc-tV-diI">
                                                                                     <rect key="frame" x="8" y="6" width="35" height="24"/>
-                                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                                                     <nil key="textColor"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
@@ -2973,7 +3124,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4q-yl-D3v">
                                                                             <rect key="frame" x="8" y="6.9999999999999982" width="32.666666666666664" height="22.333333333333329"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="15"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="15"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -3240,13 +3391,13 @@ A combination of three random words is one of the strongest passwords, and the k
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ol-mb-d2M">
                                                 <rect key="frame" x="53" y="27.333333333333332" width="108" height="34.333333333333343"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rBB-o4-R6D">
                                                 <rect key="frame" x="213" y="21" width="108" height="47"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="23"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -3289,12 +3440,12 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0d-Fo-8XY">
                                         <rect key="frame" x="137.66666666666666" y="13" width="100" height="44"/>
-                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="2zo-bJ-WAk"/>
                                             <constraint firstAttribute="height" constant="44" id="Aha-px-lKu"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <state key="normal" title="SELECT">
                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -3405,13 +3556,13 @@ A combination of three random words is one of the strongest passwords, and the k
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adG-YM-5n3">
                                                 <rect key="frame" x="39" y="0.0" width="7" height="18"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="12"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACCEPTED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teZ-YY-hog">
                                                 <rect key="frame" x="0.0" y="19" width="85" height="18"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="12"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -3431,13 +3582,13 @@ A combination of three random words is one of the strongest passwords, and the k
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiR-vP-fAW">
                                                 <rect key="frame" x="39" y="0.0" width="7" height="18"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="12"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMPLETED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLp-fS-INM">
                                                 <rect key="frame" x="0.0" y="19" width="85" height="18"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="12"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -3455,7 +3606,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJU-vv-iZL">
                                         <rect key="frame" x="90" y="40" width="85" height="3"/>
-                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="3" id="Ygd-Gg-Hsr"/>
                                             <constraint firstAttribute="width" constant="85" id="jqI-Y8-q9p"/>
@@ -3512,7 +3663,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="21" id="kMw-Sv-m2L"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -3531,8 +3682,8 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                             <color key="trackTintColor" red="0.85882352941176465" green="0.8666666666666667" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </progressView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculating...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIO-YO-MYr">
-                                                                            <rect key="frame" x="7.9999999999999964" y="10" width="63.666666666666657" height="21"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                                            <rect key="frame" x="8" y="10" width="79" height="21"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                             <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -3657,14 +3808,14 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                             </constraints>
                                                                         </view>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrC-MM-iBe">
-                                                                            <rect key="frame" x="37.666666666666657" y="41" width="6" height="16.333333333333329"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="11"/>
+                                                                            <rect key="frame" x="38" y="41" width="5.3333333333333357" height="16.333333333333329"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VOUCHERS EARNED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuB-iI-bQC">
                                                                             <rect key="frame" x="-2.6666666666666572" y="60.333333333333336" width="86.666666666666671" height="16.333333333333336"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="11"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -3687,14 +3838,14 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <rect key="frame" x="217" y="0.0" width="80" height="91"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df3-0e-Hkp">
-                                                                            <rect key="frame" x="37" y="41" width="6" height="16.333333333333329"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="11"/>
+                                                                            <rect key="frame" x="37.333333333333343" y="41" width="5.3333333333333357" height="16.333333333333329"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PANNELS JOINED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glZ-TC-b0d">
                                                                             <rect key="frame" x="3.3333333333333428" y="60.333333333333336" width="73.666666666666671" height="16.333333333333336"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="11"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -3722,14 +3873,14 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <rect key="frame" x="51" y="0.0" width="78" height="91"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hra-k8-wOu">
-                                                                            <rect key="frame" x="36" y="41" width="6" height="16.333333333333329"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="11"/>
+                                                                            <rect key="frame" x="36.333333333333329" y="41" width="5.3333333333333357" height="16.333333333333329"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CASH EARNED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2F-vG-4tV">
                                                                             <rect key="frame" x="7.6666666666666679" y="60.333333333333336" width="62.666666666666657" height="16.333333333333336"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="11"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -3891,7 +4042,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tva-LY-I9v">
                                                                             <rect key="frame" x="169.33333333333334" y="25" width="39.333333333333343" height="27"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -4008,7 +4159,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="js9-mX-5o7">
                                                                             <rect key="frame" x="169.33333333333334" y="25" width="39.333333333333343" height="25.666666666666671"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -4026,15 +4177,15 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="2" id="WcX-Uq-SvR"/>
                                                                             </constraints>
-                                                                            <color key="progressTintColor" red="0.37647058820000001" green="0.44705882349999998" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <color key="progressTintColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <color key="trackTintColor" red="0.85882352939999995" green="0.86666666670000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </progressView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculating..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2B-gC-ayU">
-                                                                            <rect key="frame" x="158.33333333333334" y="104" width="61.333333333333343" height="17"/>
+                                                                            <rect key="frame" x="151.33333333333334" y="104" width="75.666666666666657" height="17"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="17" id="2Oe-oc-nzP"/>
                                                                             </constraints>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -4128,20 +4279,20 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offer details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQU-mg-9li">
-                                                                    <rect key="frame" x="149" y="24.999999999999996" width="92" height="32.666666666666657"/>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="22"/>
+                                                                    <rect key="frame" x="139.33333333333334" y="24.999999999999996" width="111.66666666666666" height="32.666666666666657"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
                                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElE-Oe-ghO">
                                                                     <rect key="frame" x="16" y="104.66666666666667" width="358" height="41.333333333333329"/>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIr-eo-F6Y">
                                                                     <rect key="frame" x="180" y="71.666666666666657" width="30" height="3"/>
-                                                                    <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="backgroundColor" red="0.93725490196078431" green="0.76862745098039209" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="3" id="N7q-Tx-P9T"/>
                                                                         <constraint firstAttribute="width" constant="30" id="Sa5-52-bKA"/>
@@ -4199,12 +4350,12 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl5-9b-Dy2">
                                         <rect key="frame" x="122" y="13" width="170" height="44"/>
-                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="Huo-d0-gaP"/>
                                             <constraint firstAttribute="height" constant="44" id="c5T-lC-Hpl"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <state key="normal" title="ACCEPT CHALLENGE">
                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -4261,11 +4412,11 @@ A combination of three random words is one of the strongest passwords, and the k
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A96-wm-ejI">
                                 <rect key="frame" x="72" y="651" width="231" height="45"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="E7G-Wq-WFB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                 <state key="normal" title="View my offers">
                                     <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -4275,9 +4426,9 @@ A combination of three random words is one of the strongest passwords, and the k
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCQ-WE-dHE">
                                 <rect key="frame" x="143.66666666666666" y="715" width="88" height="33"/>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                 <state key="normal" title="Back to browse">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="browseOffersButtonAction:" destination="cTe-Zg-00N" eventType="touchUpInside" id="rG4-mB-TxF"/>
@@ -4285,7 +4436,7 @@ A combination of three random words is one of the strongest passwords, and the k
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offer accepted!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui8-jC-9m3">
                                 <rect key="frame" x="118.33333333333333" y="504.00000000000006" width="138.33333333333337" height="32.666666666666686"/>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="22"/>
                                 <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -4349,7 +4500,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" text="Exchange your data for benefits" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgm-Ck-MUh">
                                         <rect key="frame" x="25" y="426" width="325" height="27"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -4378,10 +4529,10 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <rect key="frame" x="0.0" y="713" width="375" height="65"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMi-Bt-J3n">
-                                        <rect key="frame" x="323" y="17" width="30" height="31"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                        <rect key="frame" x="321" y="17" width="32" height="31"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
                                         <state key="normal" title="SKIP">
-                                            <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="skipButtonAction:" destination="yhR-7B-BeZ" eventType="touchUpInside" id="rc0-7C-eY8"/>
@@ -4444,7 +4595,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="780" text="Monetise the value of your data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tw-WZ-wbp">
                                         <rect key="frame" x="25" y="426" width="324" height="27"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -4473,10 +4624,10 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <rect key="frame" x="0.0" y="713" width="375" height="65"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwk-ym-JNC">
-                                        <rect key="frame" x="323" y="14.666666666666629" width="30" height="36"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                        <rect key="frame" x="321" y="14.666666666666629" width="32" height="36"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
                                         <state key="normal" title="SKIP">
-                                            <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="skipButtonAction:" destination="TnU-89-plr" eventType="touchUpInside" id="bii-OL-3q2"/>
@@ -4616,7 +4767,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </collectionView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fdesfsdfsdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHZ-QI-s9F">
                                                             <rect key="frame" x="122.66666666666666" y="58.000000000000007" width="109" height="25.333333333333336"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="24"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="24"/>
                                                             <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -4690,7 +4841,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wex-6n-Il6">
                                                             <rect key="frame" x="13" y="6" width="260" height="35.666666666666664"/>
                                                             <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                         </textField>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pca-0p-dRn">
@@ -4702,7 +4853,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
                                                             <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                                             <state key="normal" title="Private">
-                                                                <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             </state>
                                                             <connections>
                                                                 <action selector="isFieldPublicButtonAction:" destination="Bei-cz-a8X" eventType="touchUpInside" id="gYi-cp-sX6"/>
@@ -4814,7 +4965,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="dpM-lZ-f7x"/>
                                                             </constraints>
                                                             <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKN-45-NyN">
@@ -4868,12 +5019,12 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6r-h4-XnP">
                                         <rect key="frame" x="117.66666666666669" y="13" width="140" height="44"/>
-                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="MIH-dP-u7D"/>
                                             <constraint firstAttribute="height" constant="44" id="UBJ-H2-NVm"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="SAVED">
                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4953,7 +5104,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="rrW-Gd-dwX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                 <state key="normal" title="OKAY">
                                     <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -4974,7 +5125,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJc-4g-NJO">
                                                     <rect key="frame" x="145" y="155" width="50" height="34.333333333333343"/>
-                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="23"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="23"/>
                                                     <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -5044,7 +5195,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibb-Vf-fmm">
                                                                     <rect key="frame" x="12.000000000000002" y="8" width="30.666666666666671" height="21"/>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -5127,7 +5278,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hUf-O2-n7h"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -5268,7 +5419,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="800" text="Donate your data for research" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vP9-K9-hYR">
                                         <rect key="frame" x="25" y="429" width="319" height="27"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                         <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -5297,10 +5448,10 @@ A combination of three random words is one of the strongest passwords, and the k
                                 <rect key="frame" x="0.0" y="713" width="375" height="65"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Nx-kn-MEw">
-                                        <rect key="frame" x="332" y="14.666666666666629" width="30" height="36"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                        <rect key="frame" x="329" y="14.666666666666629" width="33" height="36"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
                                         <state key="normal" title="Done">
-                                            <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="doneButtonAction:" destination="phU-DD-Tsg" eventType="touchUpInside" id="zbf-yB-28M"/>
@@ -5370,7 +5521,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Name " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDE-CO-LXM">
                                                                             <rect key="frame" x="145" y="81" width="104" height="27"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="24"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="24"/>
                                                                             <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -5423,12 +5574,12 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                         </label>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="RB6-yw-hJc">
                                                                             <rect key="frame" x="112" y="123" width="170" height="44"/>
-                                                                            <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="44" id="MWT-SX-p7D"/>
                                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="cAQ-Jm-hpK"/>
                                                                             </constraints>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                                             <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
                                                                             <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                                             <state key="normal" title="CONNECT" image="Add white">
@@ -5570,7 +5721,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="16.670000000000002" id="cHi-QK-GXz"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                     <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -5670,7 +5821,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </collectionView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screenshots" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIc-Nh-6Sq">
                                                             <rect key="frame" x="16" y="12" width="70.333333333333329" height="21"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                             <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -5715,7 +5866,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="22" id="XCG-Jx-4ws"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                             <color key="textColor" red="0.2901960784" green="0.33333333329999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -5982,7 +6133,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lo0-Sk-on2">
                                                         <rect key="frame" x="8" y="8" width="4.6666666666666679" height="28"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                         <color key="textColor" red="0.2901960784" green="0.33333333329999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -6010,7 +6161,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68z-P8-nQl">
                                                         <rect key="frame" x="8" y="1" width="291" height="50"/>
                                                         <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                         <state key="normal" title=" ">
                                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
@@ -6092,7 +6243,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text=" " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iak-Ly-cea">
                                                         <rect key="frame" x="8" y="8" width="310" height="21"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
                                                         <color key="textColor" red="0.2901960784" green="0.33333333329999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -6120,7 +6271,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Feo-cf-JSI">
                                                         <rect key="frame" x="8" y="1" width="310" height="50"/>
                                                         <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                         <state key="normal" title=" ">
                                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
@@ -6144,9 +6295,9 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="31.670000000000002" id="HFN-xS-ytM"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
                                                 <state key="normal" title="Close">
-                                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="cancelButtonAction:" destination="IEy-bG-nJy" eventType="touchUpInside" id="bLx-Rs-cjA"/>
@@ -6270,7 +6421,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="21" id="Xhh-jg-hL0"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -6293,8 +6444,8 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3F-6c-Npg">
                                                                             <rect key="frame" x="232.33333333333334" y="-2.3333333333333144" width="42.666666666666657" height="21"/>
-                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
-                                                                            <color key="textColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
+                                                                            <color key="textColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -6410,7 +6561,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See all data debits you have enabled so far in your HAT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAk-yG-P0X">
                                         <rect key="frame" x="65.666666666666671" y="182" width="243.66666666666663" height="38.666666666666657"/>
-                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -6455,7 +6606,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBj-Vn-Bg2">
                                                                     <rect key="frame" x="72" y="18" width="30.666666666666671" height="18.333333333333329"/>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKb-jH-rpb">
@@ -6466,7 +6617,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glh-ds-FFT">
                                                                     <rect key="frame" x="72" y="38.333333333333336" width="28.333333333333329" height="19.333333333333336"/>
-                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="13"/>
                                                                     <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -6579,13 +6730,13 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="oWJ-TL-A3R"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="24"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="24"/>
                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details of your data debit agreement with this provider" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xo-87-4jo">
                                                             <rect key="frame" x="65.333333333333329" y="99" width="224.66666666666669" height="39"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="13"/>
                                                             <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -6601,7 +6752,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="35" id="3oE-av-rmU"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="15"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="15"/>
                                                             <state key="normal" title="Button"/>
                                                         </button>
                                                     </subviews>
@@ -6681,7 +6832,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qff-8f-Du6">
                                                             <rect key="frame" x="14.000000000000002" y="11" width="30.666666666666671" height="18"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -6746,7 +6897,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppd-XY-Qmf">
                                                             <rect key="frame" x="72" y="24" width="30.666666666666671" height="21"/>
-                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -6791,9 +6942,9 @@ A combination of three random words is one of the strongest passwords, and the k
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fB-DG-5ir">
                                                     <rect key="frame" x="149.66666666666666" y="6" width="76" height="32"/>
-                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="13"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="13"/>
                                                     <state key="normal" title="Privacy Policy">
-                                                        <color key="titleColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" red="0.38431372549999998" green="0.59215686270000001" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
                                                     <connections>
                                                         <action selector="privacyPolicyButtonAction:" destination="1nB-W5-Iog" eventType="touchUpInside" id="tlZ-oC-g94"/>
@@ -6870,6 +7021,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <image name="Add white" width="20" height="20"/>
         <image name="Arrow Forward Black" width="18" height="18"/>
         <image name="Arrow Forward Native Gray" width="25" height="25"/>
+        <image name="Arrow forward" width="108" height="108"/>
         <image name="Background" width="403" height="641"/>
         <image name="Cancel" width="56" height="56"/>
         <image name="Cancel Dark" width="20" height="20"/>
@@ -6883,7 +7035,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <image name="Filter" width="15" height="15"/>
         <image name="First Page" width="258" height="300"/>
         <image name="General Permission" width="52" height="52"/>
-        <image name="HAT Blue" width="100" height="100"/>
+        <image name="HAT Blue" width="132" height="116"/>
         <image name="Menu Icon" width="18" height="18"/>
         <image name="More" width="24" height="24"/>
         <image name="Navigation Bar Logo" width="250" height="61"/>
@@ -6896,7 +7048,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <image name="Second Page" width="187" height="300"/>
         <image name="Service Error Pink" width="22" height="19"/>
         <image name="Side Menu Logo" width="91" height="38"/>
-        <image name="Small Logo" width="109" height="104"/>
+        <image name="Small Logo" width="132" height="116"/>
         <image name="Third Page" width="204" height="300"/>
         <image name="Voucher placeholder" width="144" height="54"/>
         <image name="Vouchers" width="19" height="18"/>
@@ -6904,7 +7056,7 @@ A combination of three random words is one of the strongest passwords, and the k
     <inferredMetricsTieBreakers>
         <segue reference="LPl-MK-SPM"/>
         <segue reference="LXP-ac-qXA"/>
-        <segue reference="ztK-gp-jaN"/>
+        <segue reference="wNa-xg-w4G"/>
         <segue reference="CRc-h8-ry0"/>
     </inferredMetricsTieBreakers>
 </document>

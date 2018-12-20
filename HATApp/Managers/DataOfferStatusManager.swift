@@ -66,34 +66,8 @@ enum DataOfferStatusManager: String {
         
         if offer.claim.claimStatus == "claimed" {
             
-            guard dataDebitValue != nil else {
-                
-                progressBar.progress = 0/3
-                progressStatusLabel.text = "Checking status..."
-                return
-            }
-            
-            
-            if let value = dataDebitValue?.conditions?.values.reduce(true, { $0 && $1 }) {
-                
-                if value {
-                    
-                    progressBar.progress = 2/3
-                    progressStatusLabel.text = "2/3 Fetching"
-                } else {
-                    
-                    progressBar.progress = 1/3
-                    progressStatusLabel.text = "1/3 Offer accepted"
-                }
-            } else if let bundle = dataDebitValue?.bundle, !bundle.isEmpty {
-                
-                progressBar.progress = 2/3
-                progressStatusLabel.text = "2/3 Fetching"
-            } else {
-                
-                progressBar.progress = 0/3
-                progressStatusLabel.text = "Problem claiming offer. Please tap here"
-            }
+            progressBar.progress = 2/3
+            progressStatusLabel.text = "2/3 Fetching"
         } else if offer.claim.claimStatus == "completed" {
             
             progressBar.progress = 3/3

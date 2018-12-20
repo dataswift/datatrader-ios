@@ -87,7 +87,7 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
         HATDataOffersService.getAvailableDataOffers(
             userDomain: self.userDomain,
             userToken: userToken,
-            merchants: ["shapeprivate"],
+            merchants: ["datatrader"],
             succesfulCallBack: receivedOffers,
             failCallBack: databuyerOffersError)
     }
@@ -147,10 +147,10 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
             self?.filteredOffers.removeAll()
             
             self?.dismissPopUp()
-            for offer in dataOffers {
-                
-                self?.getDataDebit(dataDebitID: offer.claim.dataDebitID)
-            }
+//            for offer in dataOffers {
+//                
+//                self?.getDataDebit(dataDebitID: offer.claim.dataDebitID)
+//            }
             self?.filterOffers(dataOffers: dataOffers)
             self?.countOffers(offers: dataOffers)
             self?.filterDataSource()
@@ -249,17 +249,27 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
     
     private func getDataDebit(dataDebitID: String) {
         
-        HATDataDebitsService.getDataDebitValues(
-            dataDebitID: dataDebitID,
-            userToken: self.userToken,
+        HATService.getApplicationTokenFor(
             userDomain: self.userDomain,
-            succesfulCallBack: { [weak self] dataDebitValue, newUserToken in
+            userToken: self.userToken,
+            appName: "databuyerstaging",
+            succesfulCallBack: { [weak self] appToken, newUserToken in
                 
-                self?.dataDebitsForOffers[dataDebitID] = DataDebitValuesObject()
-                self?.dataDebitsForOffers[dataDebitID] = dataDebitValue
-                self?.collectionView.reloadData()
+                guard let weakSelf = self else { return }
+                
+                HATDataDebitsService.getDataDebitValues(
+                    dataDebitID: dataDebitID,
+                    userToken: appToken,
+                    userDomain: weakSelf.userDomain,
+                    succesfulCallBack: { dataDebitValue, newUserToken in
+                        
+                        weakSelf.dataDebitsForOffers[dataDebitID] = DataDebitValuesObject()
+                        weakSelf.dataDebitsForOffers[dataDebitID] = dataDebitValue
+                        weakSelf.collectionView.reloadData()
+                    },
+                    failCallBack: weakSelf.dataDebitError)
             },
-            failCallBack: dataDebitError)
+            failCallBack: { _ in return })
     }
     
     // MARK: - UICollectionView delegate
