@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "icons8-ok_filled_40x40-1.png",
+      "filename" : "icons8-unchecked_checkbox_filled.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "icons8-ok_filled_40x40@2x-1.png",
+      "filename" : "icons8-unchecked_checkbox_filled@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "icons8-ok_filled_40x40@3x-1.png",
+      "filename" : "icons8-unchecked_checkbox_filled@3x.png",
       "scale" : "3x"
     }
   ],

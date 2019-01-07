@@ -16,6 +16,18 @@
         <array key="Oswald-Light.ttf">
             <string>Oswald-Light</string>
         </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Login View Controller-->
@@ -61,7 +73,7 @@
                                             <action selector="createAccountButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="svK-5Y-HYD"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAT Blue" translatesAutoresizingMaskIntoConstraints="NO" id="Hs2-f7-eTd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hatBlank" translatesAutoresizingMaskIntoConstraints="NO" id="Hs2-f7-eTd">
                                         <rect key="frame" x="83" y="93" width="209" height="116"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service of HATLAB" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hap-2h-RCf">
@@ -400,7 +412,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="7TO-TI-Aaf"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                         <state key="normal" title="NEXT">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -414,13 +426,13 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyY-KI-jcc">
-                                                        <rect key="frame" x="32" y="346" width="310" height="41"/>
+                                                        <rect key="frame" x="32" y="346" width="310" height="38"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="After tapping 'next' you will be re-directed to your HAT to enter your password">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <font key="NSFont" metaFont="system" size="15"/>
+                                                                    <font key="NSFont" size="14" name="Roboto-Regular"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -431,24 +443,24 @@
                                                         <rect key="frame" x="0.0" y="82" width="373" height="94"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfm-9q-qYs">
-                                                                <rect key="frame" x="75" y="8" width="222" height="91"/>
+                                                                <rect key="frame" x="60.333333333333329" y="8" width="251.66666666666669" height="91"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAT Blue" translatesAutoresizingMaskIntoConstraints="NO" id="gCX-vz-mWj">
-                                                                        <rect key="frame" x="8" y="14" width="65" height="65"/>
+                                                                        <rect key="frame" x="7.9999999999999929" y="14" width="65" height="65"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="65" id="uzf-ws-d3L"/>
                                                                             <constraint firstAttribute="width" constant="65" id="v97-3g-VmV"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="yourhatname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HOT-bR-kP7">
-                                                                        <rect key="frame" x="89.666666666666657" y="23" width="112.66666666666666" height="27"/>
-                                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="21"/>
+                                                                        <rect key="frame" x="89.666666666666643" y="23" width="142.33333333333337" height="28.333333333333329"/>
+                                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
                                                                         <color key="textColor" red="0.29411764705882354" green="0.33333333333333331" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".yourhatdomain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="O1v-bT-CK8">
-                                                                        <rect key="frame" x="89" y="48" width="113.33333333333331" height="24"/>
-                                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                                        <rect key="frame" x="89" y="55.333333333333343" width="143" height="16.666666666666671"/>
+                                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                                         <color key="textColor" red="0.29411764705882354" green="0.33333333333333331" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -463,7 +475,7 @@
                                                                     <constraint firstItem="gCX-vz-mWj" firstAttribute="leading" secondItem="hfm-9q-qYs" secondAttribute="leading" constant="8" id="PGN-Yj-8VE"/>
                                                                     <constraint firstItem="HOT-bR-kP7" firstAttribute="top" secondItem="hfm-9q-qYs" secondAttribute="top" constant="23" id="RTX-WN-5zg"/>
                                                                     <constraint firstAttribute="height" constant="91" id="bTg-QV-Fc2"/>
-                                                                    <constraint firstItem="O1v-bT-CK8" firstAttribute="top" secondItem="HOT-bR-kP7" secondAttribute="bottom" constant="-2" id="mjQ-42-hQQ"/>
+                                                                    <constraint firstItem="O1v-bT-CK8" firstAttribute="top" secondItem="HOT-bR-kP7" secondAttribute="bottom" constant="4" id="mjQ-42-hQQ"/>
                                                                     <constraint firstItem="gCX-vz-mWj" firstAttribute="top" secondItem="hfm-9q-qYs" secondAttribute="top" constant="14" id="pmw-EA-Djm"/>
                                                                 </constraints>
                                                             </view>
@@ -481,8 +493,8 @@
                                                         <rect key="frame" x="-1" y="275" width="376" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select HAT domain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzf-y8-M7i">
-                                                                <rect key="frame" x="16.000000000000007" y="15" width="102.66666666666669" height="21"/>
-                                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                                <rect key="frame" x="16.000000000000007" y="15" width="119.66666666666669" height="21"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                                 <color key="textColor" red="0.80769306421279907" green="0.80752372741699219" blue="0.82814580202102661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -512,7 +524,7 @@
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter HAT name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="utH-Pf-5Wy">
                                                                 <rect key="frame" x="16" y="0.0" width="355" height="50"/>
                                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue" textContentType="username"/>
                                                                 <connections>
                                                                     <outlet property="delegate" destination="8Tl-MX-fkf" id="mLV-Ho-nRd"/>
@@ -529,18 +541,18 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoU-Ii-pdH">
-                                                        <rect key="frame" x="63.333333333333329" y="28" width="246.33333333333337" height="44"/>
+                                                        <rect key="frame" x="53.666666666666657" y="28" width="266" height="44"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Service Error Pink" translatesAutoresizingMaskIntoConstraints="NO" id="UgV-16-7Js">
-                                                                <rect key="frame" x="7.9999999999999929" y="10" width="24" height="24"/>
+                                                                <rect key="frame" x="8" y="10" width="24" height="24"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="24" id="FlK-u9-Ass"/>
                                                                     <constraint firstAttribute="height" constant="24" id="O25-MZ-Sf5"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry that HAT name doesn’t exist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Rx-zW-2g9">
-                                                                <rect key="frame" x="41.999999999999986" y="14" width="194.33333333333331" height="16"/>
-                                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="14"/>
+                                                                <rect key="frame" x="42" y="14" width="214" height="16"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                                                 <color key="textColor" red="0.88235294117647056" green="0.41176470588235292" blue="0.51764705882352946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -652,7 +664,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GSe-dC-N1o">
                                             <rect key="frame" x="16" y="0.0" width="343" height="49.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="15"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                             <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -788,12 +800,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGK-ry-9SK">
-                                                <rect key="frame" x="48" y="562" width="279" height="50"/>
+                                                <rect key="frame" x="48" y="569" width="279" height="50"/>
                                                 <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="5ec-4a-Z1w"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                                 <state key="normal" title="NEXT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -802,7 +814,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPa-MF-ffW">
-                                                <rect key="frame" x="95.333333333333329" y="20" width="184.66666666666669" height="110"/>
+                                                <rect key="frame" x="87.666666666666686" y="20" width="200" height="110"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAT Blue" translatesAutoresizingMaskIntoConstraints="NO" id="XXB-wi-lSb">
                                                         <rect key="frame" x="8" y="20" width="70" height="70"/>
@@ -811,14 +823,14 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hat.direct" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uji-Nc-u75">
-                                                        <rect key="frame" x="92" y="66" width="92.666666666666686" height="31.333333333333329"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="21"/>
+                                                        <rect key="frame" x="92" y="59.999999999999993" width="108" height="16.666666666666664"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yourname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BxD-Qp-WSt">
-                                                        <rect key="frame" x="92" y="29.000000000000004" width="92.666666666666686" height="34.333333333333343"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="23"/>
+                                                        <rect key="frame" x="92" y="29" width="108" height="28.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
                                                         <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -838,8 +850,8 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYb-Xb-cR5">
-                                                <rect key="frame" x="110" y="631" width="155" height="36"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
+                                                <rect key="frame" x="113" y="638" width="149" height="29"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                 <state key="normal" title="Have an account? Login">
                                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -848,23 +860,23 @@
                                                 </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your domain name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BfK-YA-TH4">
-                                                <rect key="frame" x="-1" y="191" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="170.33333333333331" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="CDX-pi-cJf"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue" textContentType="username"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vp9-UU-z68">
-                                                <rect key="frame" x="20" y="261" width="335" height="71.666666666666686"/>
+                                                <rect key="frame" x="20" y="240.33333333333331" width="335" height="46"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">It can only contain alphanumeric characters (cannot start with a number or have caps). The entire domain name has to be between 4 and 22 characters in length.</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <font key="NSFont" size="13" name="Roboto-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
@@ -872,12 +884,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLB-LK-Wvt">
-                                                <rect key="frame" x="20" y="135" width="335" height="36"/>
+                                                <rect key="frame" x="20" y="135" width="335" height="15.333333333333343"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Please choose your HAT microserver domain name.">
                                                         <attributes>
                                                             <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <font key="NSFont" size="13" name="Roboto-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -958,12 +970,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbv-H8-rQn">
-                                                <rect key="frame" x="47.666666666666657" y="8" width="280" height="36"/>
+                                                <rect key="frame" x="39.333333333333343" y="8" width="296.66666666666663" height="15.333333333333336"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Passwords must be marked with score 3 or Higher. ">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="13" name="Roboto-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -971,17 +983,17 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Di2-qb-v2F">
-                                                <rect key="frame" x="0.0" y="52.666666666666657" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="32" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="tzU-Ex-M5N"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rsi-Xu-18Q">
-                                                <rect key="frame" x="20" y="109.66666666666666" width="335" height="40"/>
+                                                <rect key="frame" x="20" y="89" width="335" height="40"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sJv-ie-nFY">
                                                         <rect key="frame" x="0.0" y="8" width="335" height="5"/>
@@ -1009,7 +1021,7 @@
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBy-9r-l9e">
                                                         <rect key="frame" x="335" y="21" width="0.0" height="0.0"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1026,12 +1038,12 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvP-Sp-ag9">
-                                                <rect key="frame" x="48" y="552" width="279" height="50"/>
+                                                <rect key="frame" x="48" y="560" width="279" height="50"/>
                                                 <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="fqA-Ph-RWk"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                                 <state key="normal" title="NEXT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -1040,8 +1052,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qQ-hi-47A">
-                                                <rect key="frame" x="110" y="633" width="155" height="36"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
+                                                <rect key="frame" x="118" y="641" width="139" height="28"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                                 <state key="normal" title="Have an account? Login">
                                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -1050,13 +1062,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYZ-OB-10y">
-                                                <rect key="frame" x="20" y="151.66666666666669" width="335" height="213.66666666666669"/>
+                                                <rect key="frame" x="20" y="131" width="335" height="137.33333333333337"/>
                                                 <string key="text">Your data is precious – keep it safe with a password that is Strong or Very Strong on this scale.
 
 Example: unicorn-coffee-taco
 
 A combination of three random words is one of the strongest passwords, and the kind we recommend. Read on how we determine password strength policy (and why it's so important) on our developers' pages.</string>
-                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1116,7 +1128,7 @@ A combination of three random words is one of the strongest passwords, and the k
                         <outlet property="passwordStrengthThreeView" destination="bQo-I8-6pP" id="oDt-8j-72d"/>
                         <outlet property="passwordStrengthTwoView" destination="iGu-6D-uU9" id="VdR-4q-M7Q"/>
                         <outlet property="scrollView" destination="nrU-u0-YqQ" id="X23-Mx-NdM"/>
-                        <segue destination="zEj-QL-cgK" kind="show" identifier="createHATConfirmationSegue" id="vbV-7r-NXC"/>
+                        <segue destination="tAT-WR-N9b" kind="show" identifier="subscribeToMailingListsSegue" id="jpa-EH-iWr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IZC-uL-7JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1139,32 +1151,32 @@ A combination of three random words is one of the strongest passwords, and the k
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By selecting ‘Confirm’ I agree that I have read and accept the HAT and HATDeX terms " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRO-Zc-mi3">
-                                <rect key="frame" x="45" y="617.33333333333337" width="285" height="47.666666666666629"/>
-                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                <rect key="frame" x="45" y="634.33333333333337" width="285" height="30.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are signing up to a HAT MICROSERVER account with 1GB of storage " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efz-CD-cSK">
-                                <rect key="frame" x="45" y="221.66666666666669" width="285" height="47.666666666666686"/>
-                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                <rect key="frame" x="45" y="212.66666666666669" width="285" height="33"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE HAT ACCOUNT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syI-Xt-6RV">
-                                <rect key="frame" x="101.33333333333333" y="172" width="172.66666666666669" height="32.666666666666657"/>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="22"/>
+                                <rect key="frame" x="94.333333333333329" y="172" width="186.33333333333337" height="23.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-2g-o8k">
-                                <rect key="frame" x="48" y="542.33333333333337" width="279" height="50"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.76862745099999996" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="48" y="559.33333333333337" width="279" height="50"/>
+                                <color key="backgroundColor" red="0.38431372549019605" green="0.59215686274509804" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="wsV-Zz-fEp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                 <state key="normal" title="CONFIRM">
-                                    <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="confirmButtonAction:" destination="zEj-QL-cgK" eventType="touchUpInside" id="Kk1-B4-75Y"/>
@@ -1221,23 +1233,23 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <rect key="frame" x="37" y="147" width="301" height="266"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We have given you 1GB storage to begin" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rZ-Iy-HOu">
-                                                        <rect key="frame" x="35.999999999999986" y="68" width="209.66666666666663" height="44"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="15"/>
+                                                        <rect key="frame" x="36" y="68" width="256" height="44"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’ve now got your own private cloud microserver to control your personal data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tS5-Eu-aQM">
-                                                        <rect key="frame" x="35.999999999999986" y="110" width="209.66666666666663" height="55"/>
+                                                        <rect key="frame" x="36" y="110" width="256" height="55"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="55" id="C6B-mr-uJq"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success! Your HAT has been created. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9N-2e-lrE">
                                                         <rect key="frame" x="36" y="41" width="257" height="22"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1277,8 +1289,8 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIP. You can do more with your HAT on a web browser. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YN-fB-tGU" userLabel="TIP. You can do more with your HAT on a web browser.">
-                                                        <rect key="frame" x="61" y="208.66666666666669" width="207" height="44.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="15"/>
+                                                        <rect key="frame" x="36" y="208.66666666666669" width="257" height="35.333333333333343"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1337,14 +1349,14 @@ A combination of three random words is one of the strongest passwords, and the k
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hatname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dQT-et-riX">
-                                                        <rect key="frame" x="83" y="16.999999999999996" width="85.333333333333314" height="35.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="24"/>
+                                                        <rect key="frame" x="83" y="17" width="94.666666666666686" height="28.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".hubofallthings.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oef-aJ-LcI">
-                                                        <rect key="frame" x="83" y="60.666666666666671" width="112.66666666666669" height="27"/>
-                                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="18"/>
+                                                        <rect key="frame" x="83" y="53.333333333333329" width="116.33333333333331" height="16.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1368,7 +1380,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="UZR-7q-rWz"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                                 <state key="normal" title="LOGIN TO YOUR HAT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1695,23 +1707,23 @@ A combination of three random words is one of the strongest passwords, and the k
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="W1k-Yw-Qj4">
-                                                <rect key="frame" x="-1" y="112" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="104" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="l6N-Bp-GBi"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next" textContentType="given-name"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pM3-Ys-r8T">
-                                                <rect key="frame" x="20" y="28" width="335" height="54"/>
+                                                <rect key="frame" x="20" y="28" width="335" height="46"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">This  information is purely used to create your HAT. Your personal information will never be shared with anyone unless you authorise it</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <color key="NSColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Roboto-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -1719,23 +1731,23 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-DZ-F1x">
-                                                <rect key="frame" x="-1" y="162" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="154" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="yzy-vb-1m0"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next" textContentType="family-name"/>
                                             </textField>
                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="gbe-ID-nYE">
-                                                <rect key="frame" x="-1" y="212" width="377" height="50"/>
+                                                <rect key="frame" x="-1" y="204" width="377" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="WQW-5y-Iz1"/>
                                                 </constraints>
                                                 <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="continue" textContentType="email"/>
                                             </textField>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvS-rM-SAu">
@@ -1744,7 +1756,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="DMQ-Qi-cbg"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                                 <state key="normal" title="NEXT">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -1753,11 +1765,11 @@ A combination of three random words is one of the strongest passwords, and the k
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbw-Lt-kTz">
-                                                <rect key="frame" x="110" y="638" width="155" height="32"/>
+                                                <rect key="frame" x="113" y="638" width="149" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="Gjw-Ky-cLu"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                 <state key="normal" title="Have an account? Login">
                                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -2658,7 +2670,7 @@ A combination of three random words is one of the strongest passwords, and the k
                     <navigationItem key="navigationItem" title="MY PROFILE" id="z1w-Jl-muc">
                         <barButtonItem key="backBarButtonItem" title=" " id="Xae-e5-qgr"/>
                         <barButtonItem key="rightBarButtonItem" style="done" id="ijn-8g-tkq">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xmn-jH-X8r">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xmn-jH-X8r">
                                 <rect key="frame" x="309" y="5.6666666666666679" width="50" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
@@ -2710,7 +2722,7 @@ A combination of three random words is one of the strongest passwords, and the k
                     </tableView>
                     <navigationItem key="navigationItem" title="INTERESTS" id="HRA-zC-swL">
                         <barButtonItem key="rightBarButtonItem" style="done" id="7ww-B9-lT6">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G2B-XD-mb6">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G2B-XD-mb6">
                                 <rect key="frame" x="309" y="5.6666666666666679" width="50" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
@@ -2904,7 +2916,7 @@ A combination of three random words is one of the strongest passwords, and the k
                     </tableView>
                     <navigationItem key="navigationItem" title="PRIORITIES" id="nIh-qp-yxb">
                         <barButtonItem key="rightBarButtonItem" style="done" id="KMN-S7-82h">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SbY-lz-ZWP">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SbY-lz-ZWP">
                                 <rect key="frame" x="309" y="5.6666666666666679" width="50" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="14"/>
@@ -3790,7 +3802,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <rect key="frame" x="0.0" y="0.0" width="345" height="90"/>
                                                             <subviews>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjr-Jn-s8y">
-                                                                    <rect key="frame" x="132" y="0.0" width="81" height="91"/>
+                                                                    <rect key="frame" x="133" y="0.0" width="84" height="91"/>
                                                                     <subviews>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vouchers" translatesAutoresizingMaskIntoConstraints="NO" id="p8N-oz-Hfs">
                                                                             <rect key="frame" x="31" y="13" width="19" height="20"/>
@@ -3800,7 +3812,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                             </constraints>
                                                                         </imageView>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHh-ax-rlu">
-                                                                            <rect key="frame" x="79" y="35.666666666666664" width="2" height="20"/>
+                                                                            <rect key="frame" x="85" y="35.666666666666664" width="2" height="20"/>
                                                                             <color key="backgroundColor" red="0.8901960784313725" green="0.90980392156862744" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="2" id="6fV-eO-fMx"/>
@@ -3823,34 +3835,34 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="91" id="Hns-bh-7kh"/>
-                                                                        <constraint firstItem="p8N-oz-Hfs" firstAttribute="centerX" secondItem="sjr-Jn-s8y" secondAttribute="centerX" id="PBW-SR-Vag"/>
+                                                                        <constraint firstItem="p8N-oz-Hfs" firstAttribute="centerX" secondItem="sjr-Jn-s8y" secondAttribute="centerX" constant="-1.5" id="PBW-SR-Vag"/>
                                                                         <constraint firstItem="UuB-iI-bQC" firstAttribute="top" secondItem="KrC-MM-iBe" secondAttribute="bottom" constant="3" id="Qai-2t-HYQ"/>
-                                                                        <constraint firstAttribute="width" constant="81" id="VJ7-dT-Ush"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="uHh-ax-rlu" secondAttribute="trailing" id="WKb-4F-xAE"/>
+                                                                        <constraint firstAttribute="width" constant="84" id="VJ7-dT-Ush"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="uHh-ax-rlu" secondAttribute="trailing" constant="-3" id="WKb-4F-xAE"/>
                                                                         <constraint firstItem="uHh-ax-rlu" firstAttribute="centerY" secondItem="sjr-Jn-s8y" secondAttribute="centerY" id="jS3-Ob-Kq5"/>
-                                                                        <constraint firstItem="UuB-iI-bQC" firstAttribute="centerX" secondItem="sjr-Jn-s8y" secondAttribute="centerX" id="k2m-Tb-4eT"/>
+                                                                        <constraint firstItem="UuB-iI-bQC" firstAttribute="centerX" secondItem="sjr-Jn-s8y" secondAttribute="centerX" constant="-1.3333333333333215" id="k2m-Tb-4eT"/>
                                                                         <constraint firstItem="KrC-MM-iBe" firstAttribute="top" secondItem="p8N-oz-Hfs" secondAttribute="bottom" constant="8" id="oTm-IC-Fkk"/>
-                                                                        <constraint firstItem="KrC-MM-iBe" firstAttribute="centerX" secondItem="sjr-Jn-s8y" secondAttribute="centerX" id="vMc-jV-3ZS"/>
+                                                                        <constraint firstItem="KrC-MM-iBe" firstAttribute="centerX" secondItem="sjr-Jn-s8y" secondAttribute="centerX" constant="-1.3333333333333286" id="vMc-jV-3ZS"/>
                                                                         <constraint firstItem="p8N-oz-Hfs" firstAttribute="top" secondItem="sjr-Jn-s8y" secondAttribute="top" constant="13" id="wn0-mY-6Nz"/>
                                                                     </constraints>
                                                                 </view>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzK-6E-Ufp">
-                                                                    <rect key="frame" x="217" y="0.0" width="80" height="91"/>
+                                                                    <rect key="frame" x="229" y="0.0" width="80" height="91"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df3-0e-Hkp">
-                                                                            <rect key="frame" x="37.333333333333343" y="41" width="5.3333333333333357" height="16.333333333333329"/>
+                                                                            <rect key="frame" x="37.333333333333314" y="41" width="5.3333333333333357" height="16.333333333333329"/>
                                                                             <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PANNELS JOINED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glZ-TC-b0d">
-                                                                            <rect key="frame" x="3.3333333333333428" y="60.333333333333336" width="73.666666666666671" height="16.333333333333336"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BENEFITS UNLOCKED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glZ-TC-b0d">
+                                                                            <rect key="frame" x="-5.6666666666666572" y="60.333333333333336" width="91.666666666666671" height="16.333333333333336"/>
                                                                             <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="11"/>
                                                                             <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Panels" translatesAutoresizingMaskIntoConstraints="NO" id="ECX-xH-Np8">
-                                                                            <rect key="frame" x="32.666666666666657" y="14" width="15" height="20"/>
+                                                                            <rect key="frame" x="32.666666666666686" y="14" width="15" height="20"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="15" id="DBy-Yu-6yP"/>
                                                                                 <constraint firstAttribute="height" constant="20" id="haV-9b-RsC"/>
@@ -3917,10 +3929,10 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
-                                                                <constraint firstItem="sjr-Jn-s8y" firstAttribute="centerX" secondItem="gAn-dC-jkF" secondAttribute="centerX" id="B95-1l-pTi"/>
-                                                                <constraint firstItem="dzK-6E-Ufp" firstAttribute="leading" secondItem="sjr-Jn-s8y" secondAttribute="trailing" constant="4" id="ICU-2d-MNI"/>
+                                                                <constraint firstItem="sjr-Jn-s8y" firstAttribute="centerX" secondItem="gAn-dC-jkF" secondAttribute="centerX" constant="2.5" id="B95-1l-pTi"/>
+                                                                <constraint firstItem="dzK-6E-Ufp" firstAttribute="leading" secondItem="sjr-Jn-s8y" secondAttribute="trailing" constant="12" id="ICU-2d-MNI"/>
                                                                 <constraint firstItem="sjr-Jn-s8y" firstAttribute="top" secondItem="gAn-dC-jkF" secondAttribute="top" id="iKe-x1-SBk"/>
-                                                                <constraint firstItem="sjr-Jn-s8y" firstAttribute="leading" secondItem="O0y-gH-yj3" secondAttribute="trailing" constant="3" id="orr-fU-6gk"/>
+                                                                <constraint firstItem="sjr-Jn-s8y" firstAttribute="leading" secondItem="O0y-gH-yj3" secondAttribute="trailing" constant="4" id="orr-fU-6gk"/>
                                                                 <constraint firstItem="dzK-6E-Ufp" firstAttribute="top" secondItem="gAn-dC-jkF" secondAttribute="top" id="sH8-wP-SFg"/>
                                                                 <constraint firstItem="O0y-gH-yj3" firstAttribute="top" secondItem="gAn-dC-jkF" secondAttribute="top" id="sg5-cb-Ea0"/>
                                                             </constraints>
@@ -4356,7 +4368,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                             <constraint firstAttribute="height" constant="44" id="c5T-lC-Hpl"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald Condensed" pointSize="18"/>
-                                        <state key="normal" title="ACCEPT CHALLENGE">
+                                        <state key="normal" title="ACCEPT OFFER">
                                             <color key="titleColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -7015,6 +7027,137 @@ A combination of three random words is one of the strongest passwords, and the k
             </objects>
             <point key="canvasLocation" x="2740" y="-2389"/>
         </scene>
+        <!--SUBSCRIPTIONS-->
+        <scene sceneID="Yfh-5b-7Pd">
+            <objects>
+                <viewController storyboardIdentifier="SubscribeToMailingListsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tAT-WR-N9b" customClass="SubscribeToMailingListsViewController" customModule="HAT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xPK-bL-QP1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAT Blue" translatesAutoresizingMaskIntoConstraints="NO" id="YQL-bL-Sid">
+                                <rect key="frame" x="108" y="23" width="159" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="124" id="xe0-pj-Wma"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7v-gt-Kwg">
+                                <rect key="frame" x="47" y="616" width="281" height="50"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.59215686270000001" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3p8-Fj-gpr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="netButtonAction:" destination="tAT-WR-N9b" eventType="touchUpInside" id="0E1-ZH-dgv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please let us know to which of the following you wish to subscribe to:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzZ-8g-0JI">
+                                <rect key="frame" x="38" y="155" width="299" height="28.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MadHATTERs (Tech news with an attitude)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AR1-QG-SVF">
+                                <rect key="frame" x="66.000000000000014" y="191.33333333333331" width="243.33333333333337" height="26"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Montly HAT updates" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUx-Yy-CQ6">
+                                <rect key="frame" x="66.000000000000014" y="225.33333333333331" width="243.33333333333337" height="24"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Checkbox empty" translatesAutoresizingMaskIntoConstraints="NO" id="LBt-aV-C9l">
+                                <rect key="frame" x="38" y="227.33333333333331" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="5ws-M9-3LC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Checkbox empty" translatesAutoresizingMaskIntoConstraints="NO" id="Iee-RR-p8B">
+                                <rect key="frame" x="38" y="260.33333333333331" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="jem-bM-LRk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAT Ecosystem Updates from the Foundation" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVN-i2-2g3">
+                                <rect key="frame" x="66.000000000000014" y="257.33333333333331" width="243.33333333333337" height="26"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Checkbox empty" translatesAutoresizingMaskIntoConstraints="NO" id="lbB-lH-ntf">
+                                <rect key="frame" x="38" y="194.33333333333331" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Kd7-Xb-owr"/>
+                                    <constraint firstAttribute="width" constant="20" id="Ng1-bF-VXb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8c5-sm-eyo">
+                                <rect key="frame" x="38" y="291.33333333333331" width="299" height="90.333333333333314"/>
+                                <string key="text">You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at contact@hatdex.org. We will treat your information with respect. For more information about our privacy practices please visit our website. By clicking below, you agree that we may process your information in accordance with these terms.</string>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2901960784" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lbB-lH-ntf" firstAttribute="top" secondItem="SzZ-8g-0JI" secondAttribute="bottom" constant="11" id="1BM-Kf-wVx"/>
+                            <constraint firstItem="UVN-i2-2g3" firstAttribute="leading" secondItem="Iee-RR-p8B" secondAttribute="trailing" constant="8" symbolic="YES" id="1sw-eU-bJg"/>
+                            <constraint firstItem="AR1-QG-SVF" firstAttribute="leading" secondItem="lbB-lH-ntf" secondAttribute="trailing" constant="8" symbolic="YES" id="2BO-zf-nVv"/>
+                            <constraint firstItem="SzZ-8g-0JI" firstAttribute="top" secondItem="YQL-bL-Sid" secondAttribute="bottom" constant="8" symbolic="YES" id="7Dg-Of-ykL"/>
+                            <constraint firstItem="SzZ-8g-0JI" firstAttribute="leading" secondItem="6XZ-oo-fXc" secondAttribute="leading" constant="38" id="7Gw-8l-vAI"/>
+                            <constraint firstItem="6XZ-oo-fXc" firstAttribute="bottom" secondItem="C7v-gt-Kwg" secondAttribute="bottom" constant="24" id="8U4-4o-Zew"/>
+                            <constraint firstItem="8c5-sm-eyo" firstAttribute="top" secondItem="UVN-i2-2g3" secondAttribute="bottom" constant="8" symbolic="YES" id="8Zo-Pe-bM3"/>
+                            <constraint firstItem="YQL-bL-Sid" firstAttribute="centerX" secondItem="C7v-gt-Kwg" secondAttribute="centerX" id="A9h-BL-ehV"/>
+                            <constraint firstItem="ZUx-Yy-CQ6" firstAttribute="leading" secondItem="LBt-aV-C9l" secondAttribute="trailing" constant="8" symbolic="YES" id="CPg-ei-Syf"/>
+                            <constraint firstItem="SzZ-8g-0JI" firstAttribute="centerX" secondItem="xPK-bL-QP1" secondAttribute="centerX" id="Cr0-cq-8uj"/>
+                            <constraint firstItem="UVN-i2-2g3" firstAttribute="top" secondItem="ZUx-Yy-CQ6" secondAttribute="bottom" constant="8" symbolic="YES" id="HQ6-hh-la9"/>
+                            <constraint firstItem="YQL-bL-Sid" firstAttribute="leading" secondItem="6XZ-oo-fXc" secondAttribute="leading" constant="108" id="JrI-gv-NE8"/>
+                            <constraint firstItem="ZUx-Yy-CQ6" firstAttribute="trailing" secondItem="UVN-i2-2g3" secondAttribute="trailing" id="L24-YJ-ukM"/>
+                            <constraint firstItem="AR1-QG-SVF" firstAttribute="top" secondItem="SzZ-8g-0JI" secondAttribute="bottom" constant="8" symbolic="YES" id="LOt-is-PbI"/>
+                            <constraint firstItem="Iee-RR-p8B" firstAttribute="leading" secondItem="8c5-sm-eyo" secondAttribute="leading" id="N60-ue-VxJ"/>
+                            <constraint firstItem="SzZ-8g-0JI" firstAttribute="leading" secondItem="lbB-lH-ntf" secondAttribute="leading" id="NFG-R4-kiL"/>
+                            <constraint firstItem="YQL-bL-Sid" firstAttribute="top" secondItem="6XZ-oo-fXc" secondAttribute="top" constant="23" id="RZJ-By-OJy"/>
+                            <constraint firstItem="8c5-sm-eyo" firstAttribute="centerX" secondItem="xPK-bL-QP1" secondAttribute="centerX" id="SPI-S7-WJS"/>
+                            <constraint firstItem="AR1-QG-SVF" firstAttribute="trailing" secondItem="ZUx-Yy-CQ6" secondAttribute="trailing" id="Xxn-OG-ZK0"/>
+                            <constraint firstItem="lbB-lH-ntf" firstAttribute="leading" secondItem="LBt-aV-C9l" secondAttribute="leading" id="aJN-12-x6Z"/>
+                            <constraint firstItem="Iee-RR-p8B" firstAttribute="top" secondItem="LBt-aV-C9l" secondAttribute="bottom" constant="13" id="b0k-jv-8DY"/>
+                            <constraint firstItem="ZUx-Yy-CQ6" firstAttribute="top" secondItem="AR1-QG-SVF" secondAttribute="bottom" constant="8" symbolic="YES" id="bjt-Xj-sVv"/>
+                            <constraint firstItem="LBt-aV-C9l" firstAttribute="leading" secondItem="Iee-RR-p8B" secondAttribute="leading" id="eJc-8g-kTd"/>
+                            <constraint firstItem="ZUx-Yy-CQ6" firstAttribute="leading" secondItem="UVN-i2-2g3" secondAttribute="leading" id="gPq-GY-jKs"/>
+                            <constraint firstItem="AR1-QG-SVF" firstAttribute="leading" secondItem="ZUx-Yy-CQ6" secondAttribute="leading" id="hfw-Oo-Sgn"/>
+                            <constraint firstItem="C7v-gt-Kwg" firstAttribute="leading" secondItem="6XZ-oo-fXc" secondAttribute="leading" constant="47" id="iIX-Ec-3y0"/>
+                            <constraint firstItem="YQL-bL-Sid" firstAttribute="centerX" secondItem="xPK-bL-QP1" secondAttribute="centerX" id="m2O-wD-qOT"/>
+                            <constraint firstItem="Iee-RR-p8B" firstAttribute="centerY" secondItem="UVN-i2-2g3" secondAttribute="centerY" id="m76-Ch-Dx2"/>
+                            <constraint firstItem="lbB-lH-ntf" firstAttribute="centerY" secondItem="AR1-QG-SVF" secondAttribute="centerY" id="n1z-Tr-FQe"/>
+                            <constraint firstItem="8c5-sm-eyo" firstAttribute="top" secondItem="Iee-RR-p8B" secondAttribute="bottom" constant="11" id="wV1-Vk-GLc"/>
+                            <constraint firstItem="LBt-aV-C9l" firstAttribute="centerY" secondItem="ZUx-Yy-CQ6" secondAttribute="centerY" id="wWP-uT-Ugx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6XZ-oo-fXc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SUBSCRIPTIONS" id="2j5-bc-d7B">
+                        <barButtonItem key="backBarButtonItem" title=" " id="2Du-mA-x1L"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="hatEcosystemUpdatesCheckboxImageView" destination="Iee-RR-p8B" id="2Zm-cP-Xfy"/>
+                        <outlet property="madhattersCheckboxImageView" destination="lbB-lH-ntf" id="ed7-no-KRw"/>
+                        <outlet property="monthlyHatUpdatesCheckBoxImageView" destination="LBt-aV-C9l" id="jEj-eo-qO7"/>
+                        <outlet property="nextButton" destination="C7v-gt-Kwg" id="kJE-CS-Uf4"/>
+                        <outlet property="subscriptionsInfoLabel" destination="8c5-sm-eyo" id="477-mW-9Gd"/>
+                        <segue destination="zEj-QL-cgK" kind="show" identifier="createHATConfirmationSegue" id="2gW-eX-EtN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q8h-oG-n6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1534" y="2733"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Add" width="50" height="50"/>
@@ -7026,6 +7169,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <image name="Cancel" width="56" height="56"/>
         <image name="Cancel Dark" width="20" height="20"/>
         <image name="Cash" width="20" height="18"/>
+        <image name="Checkbox empty" width="28" height="28"/>
         <image name="Checkmark-white" width="108" height="108"/>
         <image name="Data Debits" width="50" height="50"/>
         <image name="Data debit duration arrow" width="19" height="8"/>
@@ -7035,7 +7179,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <image name="Filter" width="15" height="15"/>
         <image name="First Page" width="258" height="300"/>
         <image name="General Permission" width="52" height="52"/>
-        <image name="HAT Blue" width="132" height="116"/>
+        <image name="HAT Blue" width="76" height="76"/>
         <image name="Menu Icon" width="18" height="18"/>
         <image name="More" width="24" height="24"/>
         <image name="Navigation Bar Logo" width="250" height="61"/>
@@ -7052,6 +7196,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <image name="Third Page" width="204" height="300"/>
         <image name="Voucher placeholder" width="144" height="54"/>
         <image name="Vouchers" width="19" height="18"/>
+        <image name="hatBlank" width="132" height="116"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="LPl-MK-SPM"/>

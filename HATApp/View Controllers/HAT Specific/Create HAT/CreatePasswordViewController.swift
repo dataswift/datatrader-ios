@@ -89,7 +89,7 @@ internal class CreatePasswordViewController: HATCreationUIViewController {
         if self.score > 2 {
             
             self.purchaseModel.password = self.passWordTextField.text!
-            self.performSegue(withIdentifier: SeguesConstants.createHATConfirmationSegue, sender: self)
+            self.performSegue(withIdentifier: SeguesConstants.subscribeToMailingListsSegue, sender: self)
         } else {
             
             self.createDressyClassicOKAlertWith(
@@ -153,13 +153,11 @@ internal class CreatePasswordViewController: HATCreationUIViewController {
         if self.score >= 3 {
             
             self.nextButton.isUserInteractionEnabled = true
-            self.nextButton.backgroundColor = .selectionColor
-            self.nextButton.setTitleColor(.mainColor, for: .normal)
+            self.nextButton.backgroundColor = .classicHATSelectionColor
         } else {
             
             self.nextButton.isUserInteractionEnabled = false
             self.nextButton.backgroundColor = .hatDisabled
-            self.nextButton.setTitleColor(.white, for: .normal)
         }
     }
     

@@ -60,6 +60,34 @@ internal struct FontConstants {
      *     Oswald-Italic
      */
     static let oswaldItalic: String = "Oswald-Italic"
+    
+    /**
+     * Font name in system:
+     *
+     *     Roboto-Bold
+     */
+    static let robotoBold: String = "Roboto-Bold"
+    
+    /**
+     * Font name in system:
+     *
+     *     Roboto-Regular
+     */
+    static let robotoRegular: String = "Roboto-Regular"
+    
+    /**
+     * Font name in system:
+     *
+     *     Roboto-Medium
+     */
+    static let robotoMedium: String = "Roboto-Medium"
+    
+    /**
+     * Font name in system:
+     *
+     *     Roboto-Light
+     */
+    static let robotoLight: String = "Roboto-Light"
 }
 
 // MARK: - Extension
@@ -158,5 +186,53 @@ extension UIFont {
     static func oswaldExtrabold(ofSize: CGFloat) -> UIFont {
         
         return UIFont.getFont(fontName: FontConstants.oswaldExtrabold, ofSize: ofSize)
+    }
+    
+    /**
+     Tries to get the robotoMedium font with the specified size, if it fails it returns the system font of the specified size
+     
+     - parameter ofSize: A CGFloat representing the size of the font
+     
+     - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
+     */
+    static func robotoMedium(ofSize: CGFloat) -> UIFont {
+        
+        return UIFont.getFont(fontName: FontConstants.robotoMedium, ofSize: ofSize)
+    }
+    
+    /**
+     Tries to get the robotoBold font with the specified size, if it fails it returns the system font of the specified size
+     
+     - parameter ofSize: A CGFloat representing the size of the font
+     
+     - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
+     */
+    static func robotoBold(ofSize: CGFloat) -> UIFont {
+        
+        return UIFont.getFont(fontName: FontConstants.robotoBold, ofSize: ofSize)
+    }
+    
+    /**
+     Tries to get the robotoLight font with the specified size, if it fails it returns the system font of the specified size
+     
+     - parameter ofSize: A CGFloat representing the size of the font
+     
+     - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
+     */
+    static func robotoLight(ofSize: CGFloat) -> UIFont {
+        
+        return UIFont.getFont(fontName: FontConstants.robotoLight, ofSize: ofSize)
+    }
+    
+    /**
+     Tries to get the robotoRegular font with the specified size, if it fails it returns the system font of the specified size
+     
+     - parameter ofSize: A CGFloat representing the size of the font
+     
+     - returns: The requested by name UIFont or the systemFont if the requested font wasn't found
+     */
+    static func robotoRegular(ofSize: CGFloat) -> UIFont {
+        
+        return UIFont.getFont(fontName: FontConstants.robotoRegular, ofSize: ofSize)
     }
 }

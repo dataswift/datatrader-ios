@@ -87,7 +87,7 @@ enum ApplicationConnectionState: String {
                 button.setTitleColor(.white, for: .normal)
             } else {
                 
-                let image = UIImage(named: ImageNamesConstants.checkmark)
+                let image = UIImage(named: ImageNamesConstants.checkmarkYellow)
                 
                 button.backgroundColor = .clear
                 button.layer.borderColor = UIColor.selectionColor.cgColor
@@ -146,7 +146,7 @@ enum ApplicationConnectionState: String {
         switch status {
         case .connected:
             
-            let image = UIImage(named: ImageNamesConstants.checkmark)
+            let image = UIImage(named: ImageNamesConstants.checkmarkYellow)
             button.setImage(image, for: .normal)
         case .failing:
             

@@ -78,7 +78,7 @@ class ToolsCollectionViewCell: UICollectionViewCell {
         } else if tool.status.enabled && tool.status.available {
             
             self.enableToolButton.isHidden = false
-            self.enableToolButton.setImage(UIImage(named: ImageNamesConstants.checkmark), for: .normal)
+            self.enableToolButton.setImage(UIImage(named: ImageNamesConstants.checkmarkYellow), for: .normal)
         }
     }
     

@@ -44,4 +44,5 @@ internal struct SeguesConstants {
     static let preferencesToProfileSegue: String = "preferencesToProfileSegue"
     static let preferencesToPrioritiesSegue: String = "preferencesToPrioritiesSegue"
     static let prioritiesToInterestsSegue: String = "prioritiesToInterestsSegue"
+    static let subscribeToMailingListsSegue: String = "subscribeToMailingListsSegue"
 }

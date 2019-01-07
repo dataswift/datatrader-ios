@@ -93,8 +93,7 @@ internal class NewAccountSummaryViewController: HATCreationUIViewController {
             
             self.connectDataPlugsButton.setTitle("LOGIN TO YOUR HAT", for: .normal)
             self.connectDataPlugsButton.isUserInteractionEnabled = true
-            self.connectDataPlugsButton.backgroundColor = .selectionColor
-            self.connectDataPlugsButton.setTitleColor(.mainColor, for: .normal)
+            self.connectDataPlugsButton.backgroundColor = .classicHATSelectionColor
             self.coverView.isHidden = true
         }
     }

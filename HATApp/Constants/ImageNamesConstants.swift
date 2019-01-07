@@ -21,6 +21,7 @@ internal struct ImageNamesConstants {
     static let add: String = "Add"
     static let addWhite: String = "Add white"
     static let checkmark: String = "Checkmark"
+    static let checkmarkYellow: String = "Yellow checkmark"
     static let serviceError: String = "Service Error"
     static let fitbitFeed: String = "FitbitFeed"
     static let steps: String = "Steps"
@@ -70,4 +71,6 @@ internal struct ImageNamesConstants {
     static let voucherUsed: String = "Voucher used"
     static let cashEarned: String = "Cash earned"
     static let panelJoined: String = "Panel joined"
+    static let checkBoxEmptyWhite: String = "Checkbox empty white"
+    static let checkBoxCheckedWhite: String = "Checkbox checkmark white"
 }

@@ -20,6 +20,11 @@ extension UIColor {
     
     // swiftlint:disable object_literal
     
+    /// The main HAT APP selection color
+    static let classicHATSelectionColor: UIColor = UIColor(red: 98 / 255, green: 151 / 255, blue: 177 / 255, alpha: 1)
+    /// The main HAT App color
+    static let classicHATColor: UIColor = UIColor(red: 74 / 255, green: 85 / 255, blue: 107 / 255, alpha: 1)
+
     /// The main color of the App
     static let mainColor: UIColor = UIColor(red: 75 / 255, green: 85 / 255, blue: 106 / 255, alpha: 1)
     /// The main color of the App

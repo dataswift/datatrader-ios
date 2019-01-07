@@ -32,8 +32,8 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
         
         self.selectedHATClusterLabel.text = cluster
 
-        self.selectedHATClusterLabel.font = UIFont.oswaldBold(ofSize: 14)
-        self.selectedHATClusterLabel.textColor = .mainColor
+        self.selectedHATClusterLabel.font = UIFont.robotoBold(ofSize: 14)
+        self.selectedHATClusterLabel.textColor = .classicHATColor
     }
     
     // MARK: - IBOutlets
@@ -199,6 +199,8 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
         super.viewWillAppear(animated)
         
         self.updateButtonState()
+        self.hatLogoImageView.layer.masksToBounds = true
+        self.hatLogoImageView.layer.cornerRadius = self.hatLogoImageView.frame.width / 2
         
         PasswordExtensionManager.addPasswordExtensionButtonToTextFieldIfPossible(textField: self.hatNameTextField, viewController: self, target: #selector(self.passwordManagerButton(_:)))
     }
@@ -273,7 +275,7 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
                 action: #selector(weakSelf.autofillPHATA))
             
             autofillButton.setTitleTextAttributes([
-                NSAttributedString.Key.font: UIFont.oswaldLight(ofSize: 18),
+                NSAttributedString.Key.font: UIFont.robotoLight(ofSize: 18),
                 NSAttributedString.Key.foregroundColor: UIColor.white],
                                                   for: .normal)
             toolbar.barTintColor = .mainColor
@@ -301,11 +303,10 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
             
             let substrings = weakSelf.userDomain.split(separator: ".")
             
-            weakSelf.hatNameTextField.font = UIFont.oswaldBold(ofSize: 14)
             weakSelf.hatNameTextField.text = String(describing: substrings[0])
             weakSelf.selectedHATClusterLabel.text = ".\(String(describing: substrings[1])).\(String(describing: substrings[2]))"
-            weakSelf.selectedHATClusterLabel.textColor = .mainColor
-            weakSelf.selectedHATClusterLabel.font = UIFont.oswaldBold(ofSize: 14)
+            weakSelf.selectedHATClusterLabel.textColor = .classicHATColor
+            weakSelf.selectedHATClusterLabel.font = UIFont.robotoBold(ofSize: 14)
 
             weakSelf.hatNameLabel.text = weakSelf.hatNameTextField.text
             weakSelf.hatClusterName.text = weakSelf.selectedHATClusterLabel.text
@@ -407,8 +408,8 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
                 
                 textField.text = self.hatNameLabel.text
                 self.selectedHATClusterLabel.text = self.hatClusterName.text
-                self.selectedHATClusterLabel.textColor = .mainColor
-                self.selectedHATClusterLabel.font = UIFont.oswaldBold(ofSize: 14)
+                self.selectedHATClusterLabel.textColor = .classicHATColor
+                self.selectedHATClusterLabel.font = UIFont.robotoBold(ofSize: 14)
             }
         } else {
             
@@ -457,13 +458,11 @@ internal class EnterUserDomainViewController: HATUIViewController, UITextFieldDe
         if self.hatNameLabel.text != "yourhatname" && self.hatClusterName.text != ".yourhatdomain" {
             
             self.nextButton.isUserInteractionEnabled = true
-            self.nextButton.backgroundColor = .selectionColor
-            self.nextButton.setTitleColor(.mainColor, for: .normal)
+            self.nextButton.backgroundColor = .classicHATSelectionColor
         } else {
             
             self.nextButton.isUserInteractionEnabled = false
             self.nextButton.backgroundColor = .hatDisabled
-            self.nextButton.setTitleColor(.white, for: .normal)
         }
     }
     

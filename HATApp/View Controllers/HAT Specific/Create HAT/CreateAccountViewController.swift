@@ -140,13 +140,11 @@ internal class CreateAccountViewController: HATCreationUIViewController {
         if self.firstNameTextField.text != "" && self.lastNameTextField.text != "" && isValidEmail(self.emailTextField.text) {
             
             self.nextButton.isUserInteractionEnabled = true
-            self.nextButton.backgroundColor = .selectionColor
-            self.nextButton.setTitleColor(.mainColor, for: .normal)
+            self.nextButton.backgroundColor = .classicHATSelectionColor
         } else {
             
             self.nextButton.isUserInteractionEnabled = false
             self.nextButton.backgroundColor = .hatDisabled
-            self.nextButton.setTitleColor(.white, for: .normal)
         }
     }
     
