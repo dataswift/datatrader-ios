@@ -51,6 +51,7 @@ class SubscribeToMailingListsViewController: HATCreationUIViewController {
         super.viewDidLoad()
         
         self.addGestureRecognizersToCheckboxes()
+        self.nextButton.layer.cornerRadius = 5
     }
     
     // MARK: - Gesture recognisers

@@ -235,7 +235,7 @@ class AppInfoCollectionViewCell: UICollectionViewCell, UserCredentialsProtocol {
                     cell.dataPreviewSectionLabel.font = UIFont.oswaldLight(ofSize: 13)
                 } else {
                     
-                    xPos = cell.dataPreviewSectionLabel.frame.midX - cell.appInfoSectionLabel.frame.midX
+                    xPos = cell.appInfoSectionLabel.frame.minX - 24
                     
                     cell.appInfoSectionLabel.font = UIFont.oswaldLight(ofSize: 13)
                     cell.dataPreviewSectionLabel.font = UIFont.oswaldBold(ofSize: 13)

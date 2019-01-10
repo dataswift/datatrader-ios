@@ -37,9 +37,9 @@ internal class HATSectionsViewController: HATUIViewController, UITableViewDelega
     
     private var selectedRowIndex: Int = 0
     /// The sections of the table view
-    private let sections: [String] = ["Datatrader settings", "My account"]
+    private let sections: [String] = ["Datatrader settings", "My account", "Version", "Vendor (where you got your HAT)", "HAT Issuer"]
     /// The rows in each section of the table view
-    private let rows: [[String]] = [["Tech support", "Terms of service"], ["Go to my HAT app", "See my HAT enabled data", "See my data transaction history", "Reset password"]]
+    private let rows: [[String]] = [["Tech support", "Terms of service"], ["Go to my HAT app", "See my HAT enabled data", "See my data transaction history", "Reset password"], [""], ["Checking..."], ["Checking..."]]
     
     @IBAction func logOutButonAction(_ sender: Any) {
         
@@ -130,7 +130,7 @@ internal class HATSectionsViewController: HATUIViewController, UITableViewDelega
             cell.accessoryType = .disclosureIndicator
             
             return SettingsTableViewCell.setUpCell(cell: cell, title: self.rows[indexPath.section][indexPath.row])
-        } else {
+        } else if indexPath.section == 1 {
             
             guard let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiersConstants.settingsTitleCell, for: indexPath) as? SettingsTableViewCell else {
                 
@@ -144,6 +144,52 @@ internal class HATSectionsViewController: HATUIViewController, UITableViewDelega
             cell.accessoryType = .disclosureIndicator
             
             return SettingsTableViewCell.setUpCell(cell: cell, title: self.rows[indexPath.section][indexPath.row])
+        } else if indexPath.section == 2 && indexPath.row == 0 {
+            
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiersConstants.settingsTitleCell, for: indexPath) as? SettingsTableViewCell else {
+                
+                return tableView.dequeueReusableCell(withIdentifier: CellIdentifiersConstants.settingsTitleCell, for: indexPath)
+            }
+            
+            cell.preservesSuperviewLayoutMargins = false
+            cell.separatorInset = UIEdgeInsets.zero
+            cell.layoutMargins = UIEdgeInsets.zero
+            cell.selectionStyle = .none
+            cell.accessoryType = .none
+            
+            return SettingsTableViewCell.setUpCell(cell: cell, title: self.getAppVersion())
+        } else {
+            
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiersConstants.settingsTitleCell, for: indexPath) as? SettingsTableViewCell else {
+                
+                return tableView.dequeueReusableCell(withIdentifier: CellIdentifiersConstants.settingsTitleCell , for: indexPath)
+            }
+            cell.selectionStyle = .none
+            cell.preservesSuperviewLayoutMargins = false
+            cell.separatorInset = UIEdgeInsets.zero
+            cell.layoutMargins = UIEdgeInsets.zero
+            cell.accessoryType = .none
+            cell.accessoryView = nil
+            
+            if self.userDomain.contains(".hubat.net") {
+                
+                if indexPath.section == 4 {
+                    
+                    return SettingsTableViewCell.setUpCell(cell: cell, title: "DataTraderGive Beta")
+                } else {
+                    
+                    return SettingsTableViewCell.setUpCell(cell: cell, title: "HATLAB")
+                }
+            } else {
+            
+                if indexPath.section == 4 {
+                    
+                    return SettingsTableViewCell.setUpCell(cell: cell, title: "DataTraderGive")
+                } else {
+                    
+                    return SettingsTableViewCell.setUpCell(cell: cell, title: "HAT Data Exchange Ltd.")
+                }
+            }
         }
     }
     

@@ -499,7 +499,7 @@
 		605BF5F21FE172E7003FF1F6 /* LocationObjectForUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationObjectForUpload.swift; sourceTree = "<group>"; };
 		605BF5F41FE18F66003FF1F6 /* UploadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadingViewController.swift; sourceTree = "<group>"; };
 		605F831F2017944500FC6CBD /* ExploreAppsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreAppsCollectionViewCell.swift; sourceTree = "<group>"; };
-		60626E561F850F080092EC0D /* Datatrader Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Datatrader Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60626E561F850F080092EC0D /* DataTrader Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DataTrader Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60626E591F850F080092EC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60626E5B1F850F080092EC0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		60626E5E1F850F080092EC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -887,7 +887,7 @@
 		60626E571F850F080092EC0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60626E561F850F080092EC0D /* Datatrader Testing.app */,
+				60626E561F850F080092EC0D /* DataTrader Testing.app */,
 				60626E6A1F850F080092EC0D /* HATAppTests.xctest */,
 				60626E751F850F080092EC0D /* HATAppUITests.xctest */,
 			);
@@ -1128,7 +1128,7 @@
 			);
 			name = HATApp;
 			productName = ShapeInfluence;
-			productReference = 60626E561F850F080092EC0D /* Datatrader Testing.app */;
+			productReference = 60626E561F850F080092EC0D /* DataTrader Testing.app */;
 			productType = "com.apple.product-type.application";
 		};
 		60626E691F850F080092EC0D /* HATAppTests */ = {
@@ -2016,7 +2016,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE8B6B25E73FADA8FE9E26A4 /* Pods-HATApp.debug.xcconfig */;
 			buildSettings = {
-				APP_NAME = "Datatrader Testing";
+				APP_NAME = "DataTrader Testing";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = com.hubofallthings.datatraderstaging;
 				CODE_SIGN_ENTITLEMENTS = "HATApp/HAT Testing.entitlements";
@@ -2041,7 +2041,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 036C6423FD5532A3C6457131 /* Pods-HATApp.release.xcconfig */;
 			buildSettings = {
-				APP_NAME = "Datatrader Give";
+				APP_NAME = DataTraderGive;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = com.hubofallthings.datatrader;
 				CODE_SIGN_ENTITLEMENTS = "HATApp/HAT Testing.entitlements";
@@ -2196,7 +2196,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8550AAC20B94ED89280D1E1 /* Pods-HATApp.beta.xcconfig */;
 			buildSettings = {
-				APP_NAME = "Datatrader Testing";
+				APP_NAME = "DataTrader Testing";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = com.hubofallthings.datatraderstaging;
 				CODE_SIGN_ENTITLEMENTS = "HATApp/HAT Testing.entitlements";

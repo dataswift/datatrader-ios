@@ -5635,19 +5635,19 @@ A combination of three random words is one of the strongest passwords, and the k
                                                             <rect key="frame" x="10" y="373" width="394" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATA PREVIEW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqB-12-hQO">
-                                                                    <rect key="frame" x="198" y="13" width="63" height="18"/>
+                                                                    <rect key="frame" x="207.66666666666666" y="13" width="62.999999999999972" height="18"/>
                                                                     <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
                                                                     <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxy-IQ-j68">
-                                                                    <rect key="frame" x="113" y="13" width="63" height="18"/>
+                                                                    <rect key="frame" x="122.66666666666666" y="13" width="63" height="18"/>
                                                                     <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="12"/>
                                                                     <color key="textColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F5b-RL-xfw">
-                                                                    <rect key="frame" x="113" y="35" width="63" height="2"/>
+                                                                    <rect key="frame" x="122.66666666666666" y="35" width="63" height="2"/>
                                                                     <color key="backgroundColor" red="0.2901960784" green="0.33333333329999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <accessibility key="accessibilityConfiguration">
                                                                         <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
@@ -5668,7 +5668,7 @@ A combination of three random words is one of the strongest passwords, and the k
                                                                 <constraint firstItem="Bxy-IQ-j68" firstAttribute="top" secondItem="j5I-sf-Ryf" secondAttribute="top" constant="13" id="ZDt-3K-ed4"/>
                                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zqB-12-hQO" secondAttribute="trailing" constant="20" symbolic="YES" id="g1q-Pe-NWf"/>
                                                                 <constraint firstItem="F5b-RL-xfw" firstAttribute="top" secondItem="Bxy-IQ-j68" secondAttribute="bottom" constant="4" id="gZO-z3-zze"/>
-                                                                <constraint firstItem="Bxy-IQ-j68" firstAttribute="centerX" secondItem="j5I-sf-Ryf" secondAttribute="centerX" constant="-52.5" id="tmQ-rZ-FaL"/>
+                                                                <constraint firstItem="Bxy-IQ-j68" firstAttribute="centerX" secondItem="j5I-sf-Ryf" secondAttribute="centerX" constant="-43" id="tmQ-rZ-FaL"/>
                                                             </constraints>
                                                         </view>
                                                     </subviews>
@@ -7030,7 +7030,7 @@ A combination of three random words is one of the strongest passwords, and the k
         <!--SUBSCRIPTIONS-->
         <scene sceneID="Yfh-5b-7Pd">
             <objects>
-                <viewController storyboardIdentifier="SubscribeToMailingListsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tAT-WR-N9b" customClass="SubscribeToMailingListsViewController" customModule="HAT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubscribeToMailingListsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tAT-WR-N9b" customClass="SubscribeToMailingListsViewController" customModule="Datatrader_Give" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xPK-bL-QP1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

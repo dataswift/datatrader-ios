@@ -38,7 +38,7 @@ class ExploreAppsDetailsViewController: HATUIViewController, UICollectionViewDel
     private struct CellSize {
         
         static let image: CGFloat = 290
-        static let info: CGFloat = 330
+        static let info: CGFloat = 335
         static let screenShots: CGFloat = 450
         static let summary: CGFloat = 288
     }
