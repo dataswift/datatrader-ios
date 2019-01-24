@@ -72,4 +72,5 @@ internal struct CellIdentifiersConstants {
     static let preferencesPrioritiesCell: String = "preferencesPrioritiesCell"
     static let preferencesPrioritiesHeaderCell: String = "preferencesPrioritiesHeaderCell"
     static let interestsCell: String = "interestsCell"
+    static let goToHATAppDataPreviewCell: String = "goToHATAppDataPreviewCell"
 }

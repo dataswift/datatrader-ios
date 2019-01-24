@@ -290,6 +290,7 @@
 		60AAEFC420FCCD9500C6E68D /* AppInformationSimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAEFC320FCCD9500C6E68D /* AppInformationSimpleTableViewCell.swift */; };
 		60AAEFC620FCCDA600C6E68D /* AppInformationImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAEFC520FCCDA600C6E68D /* AppInformationImageTableViewCell.swift */; };
 		60AAEFC820FE2C3300C6E68D /* CellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAEFC720FE2C3300C6E68D /* CellDelegate.swift */; };
+		60AD8F5A21F471EC005D6D81 /* GoToHatAppDataPreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AD8F5921F471EC005D6D81 /* GoToHatAppDataPreviewCollectionViewCell.swift */; };
 		60B1D4AB20ED3508003DCE48 /* DataPreviewMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1D4AA20ED3508003DCE48 /* DataPreviewMessageCollectionViewCell.swift */; };
 		60B2C9461FAD026500404DBD /* FieldUpdatedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B2C9451FAD026500404DBD /* FieldUpdatedDelegate.swift */; };
 		60B2C9471FAD026500404DBD /* FieldUpdatedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B2C9451FAD026500404DBD /* FieldUpdatedDelegate.swift */; };
@@ -570,6 +571,7 @@
 		60AAEFC320FCCD9500C6E68D /* AppInformationSimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationSimpleTableViewCell.swift; sourceTree = "<group>"; };
 		60AAEFC520FCCDA600C6E68D /* AppInformationImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationImageTableViewCell.swift; sourceTree = "<group>"; };
 		60AAEFC720FE2C3300C6E68D /* CellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDelegate.swift; sourceTree = "<group>"; };
+		60AD8F5921F471EC005D6D81 /* GoToHatAppDataPreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToHatAppDataPreviewCollectionViewCell.swift; sourceTree = "<group>"; };
 		60B1D4AA20ED3508003DCE48 /* DataPreviewMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPreviewMessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		60B2C9451FAD026500404DBD /* FieldUpdatedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldUpdatedDelegate.swift; sourceTree = "<group>"; };
 		60B3F8AC20A317B30068D5DA /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
@@ -939,6 +941,7 @@
 			children = (
 				60705E091FAB2C040064551C /* AccountSocialButtonsCollectionViewCell.swift */,
 				6016D5C62114B28A0078D37B /* OffersSummaryCollectionViewCell.swift */,
+				60AD8F5921F471EC005D6D81 /* GoToHatAppDataPreviewCollectionViewCell.swift */,
 				606D10C220FCC863003514AC /* ToolInformationCollectionViewCell.swift */,
 				605476E220AECB9100D0CA90 /* WeeklyInsightsCollectionViewCell.swift */,
 				60E91D50210B56D5008A9841 /* OfferDetailsInfoCollectionViewCell.swift */,
@@ -1632,6 +1635,7 @@
 				6066754C1FA33DC000CE612E /* DataDebitsViewController.swift in Sources */,
 				605AC5F91FA0A5BD00F0DDDE /* HATLoginServiceExtension.swift in Sources */,
 				600F896120F64D260098BC92 /* HATSyncObject.swift in Sources */,
+				60AD8F5A21F471EC005D6D81 /* GoToHatAppDataPreviewCollectionViewCell.swift in Sources */,
 				60342965207FD9BA00FE5FF2 /* DataPlugsFeedLayout.swift in Sources */,
 				608899C2201A227C00FB2AE5 /* ExploreAppsImageCollectionViewCell.swift in Sources */,
 				60019C692034AAD100AABE8A /* HATProfileBundleDataObject.swift in Sources */,
@@ -2023,7 +2027,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 84XHE3A5BA;
 				INFOPLIST_FILE = "$(SRCROOT)/HATApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -2203,7 +2207,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 84XHE3A5BA;
 				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_TESTABILITY = YES;

@@ -74,9 +74,20 @@ class OfferDetailsViewController: HATUIViewController, UICollectionViewDelegate,
         self.acceptOfferButton.alpha = 0.5
         self.acceptOfferButton.isUserInteractionEnabled = false
         
+        var databuyerName: String {
+            
+            if AppStatusManager.isAppBeta() {
+                
+                return "databuyerstaging"
+            }
+            
+            return "databuyer"
+        }
+        
         HATDataOffersService.claimOffer(
             userDomain: self.userDomain,
             userToken: self.userToken,
+            databuyer: databuyerName,
             offerID: self.offer?.dataOfferID ?? "",
             succesfulCallBack: { [weak self] status, newUserToken in
                 
@@ -85,6 +96,7 @@ class OfferDetailsViewController: HATUIViewController, UICollectionViewDelegate,
                 HATDataOffersService.getAvailableDataOffers(
                     userDomain: weakSelf.userDomain,
                     userToken: weakSelf.userToken,
+                    databuyer: databuyerName,
                     merchants: ["datatrader"],
                     succesfulCallBack: { offers, newToken in
                         
@@ -93,7 +105,7 @@ class OfferDetailsViewController: HATUIViewController, UICollectionViewDelegate,
                 },
                     failCallBack: { _ in })
             },
-            failCallBack: failedClaimingOffer)
+            failCallBack: self.failedClaimingOffer)
     }
     
     override func viewDidLoad() {

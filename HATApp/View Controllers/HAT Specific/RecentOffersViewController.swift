@@ -57,10 +57,22 @@ class RecentOffersViewController: HATUIViewController, UICollectionViewDelegate,
     
     func getOffers() {
         
+        var databuyerName: String {
+            
+            if AppStatusManager.isAppBeta() {
+                
+                return "databuyerstaging"
+            } else {
+                
+                return "databuyer"
+            }
+        }
+        
         self.showPopUp(message: "Fetching recent offers...", buttonTitle: nil, buttonAction: nil)
         HATDataOffersService.getAvailableDataOffers(
             userDomain: self.userDomain,
             userToken: userToken,
+            databuyer: databuyerName,
             merchants: ["datatrader"],
             succesfulCallBack: receivedOffers,
             failCallBack: databuyerOffersError)
@@ -84,12 +96,23 @@ class RecentOffersViewController: HATUIViewController, UICollectionViewDelegate,
         switch error {
         case .generalError(_, let statusCode, _):
             
+            var databuyerName: String {
+                
+                if AppStatusManager.isAppBeta() {
+                    
+                    return "databuyerstaging"
+                } else {
+                    
+                    return "databuyer"
+                }
+            }
+            
             if statusCode == 400 {
                 
                 HATExternalAppsService.setUpApp(
                     userToken: self.userToken,
                     userDomain: self.userDomain,
-                    applicationID: "databuyerstaging",
+                    applicationID: databuyerName,
                     completion: { [weak self] _, _ in
                         
                         self?.getOffers()

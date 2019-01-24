@@ -139,7 +139,7 @@ class ExploreAppsDetailsViewController: HATUIViewController, UICollectionViewDel
                     if UIApplication.shared.canOpenURL(appURL) {
 
                         let appID = self.selectedApp!.application.id
-                        let url = "https://\(self.userDomain)/#/hatlogin?name=\(appID)&redirect=\(appURL)&fallback=hatapp://dismisssafari"
+                        let url = "https://\(self.userDomain)/#/hatlogin?name=\(appID)&redirect=\(appURL)&fallback=\(Auth.urlScheme)://dismisssafari"
                         self.openInSafari(url: url, animated: true, completion: nil)
                     } else {
 
@@ -157,7 +157,7 @@ class ExploreAppsDetailsViewController: HATUIViewController, UICollectionViewDel
                     if UIApplication.shared.canOpenURL(appURL) {
                         
                         let appID = self.selectedApp!.application.id
-                        let url = "https://\(self.userDomain)/#/hatlogin?name=\(appID)&redirect=\(appURL)&fallback=hatapp://dismisssafari"
+                        let url = "https://\(self.userDomain)/#/hatlogin?name=\(appID)&redirect=\(appURL)&fallback=\(Auth.urlScheme)://dismisssafari"
                         self.openInSafari(url: url, animated: true, completion: nil)
                     } else {
                         
@@ -310,11 +310,6 @@ class ExploreAppsDetailsViewController: HATUIViewController, UICollectionViewDel
 
             cvl.emptyCache()
             cvl.delegate = self
-            if self.selectedSection == 1 && self.dataPreviews.isEmpty && fetchData {
-                
-                self.showPopUp(message: "Fetching previews...", buttonTitle: nil, buttonAction: nil)
-                self.checkForDataPreview()
-            }
             self.collectionView.reloadData()
             cvl.invalidateLayout()
         }
@@ -422,13 +417,7 @@ class ExploreAppsDetailsViewController: HATUIViewController, UICollectionViewDel
                 return 2
             } else {
                 
-                if self.dataPreviews.isEmpty {
-                    
-                    return 2
-                } else {
-                    
-                    return self.dataPreviews.count + 1
-                }
+                return 2
             }
         }
         
@@ -463,21 +452,7 @@ class ExploreAppsDetailsViewController: HATUIViewController, UICollectionViewDel
                 return ExploreAppsDetailsScreenshotCollectionViewCell.setupCell(indexPath: indexPath, collectionView: collectionView, screenshots: self.selectedApp!.application.info.graphics.screenshots)
             } else {
                 
-                if self.dataPreviews.isEmpty {
-                                        
-                    let message: String
-                    if self.fetchingDataPreviews {
-                        
-                        message = ""
-                    } else {
-                        
-                        message = "No previews found. Please connect to see your preview."
-                    }
-                    return DataPreviewMessageCollectionViewCell.setupCell(indexPath: indexPath, collectionView: self.collectionView, message: message)
-                } else {
-                    
-                    return ExploreAppsDataCollectionViewCell.setupCell(indexPath: indexPath, collectionView: collectionView, dataPreview: self.dataPreviews[indexPath.row - 1], source: self.dataPreviews[indexPath.row - 1].source, userDomain: self.userDomain)
-                }
+                return GoToHatAppDataPreviewCollectionViewCell.setupCell(indexPath: indexPath, collectionView: collectionView, dataplugID: self.selectedApp!.application.id, userDomain: self.userDomain)
             }
         }
     }

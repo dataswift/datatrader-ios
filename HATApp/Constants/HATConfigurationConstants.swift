@@ -82,10 +82,10 @@ internal struct Domains {
         
         if AppStatusManager.isAppBeta() {
             
-            return [".hubofallthings.net", ".hubat.net", ".hat.direct", ".tamouk.hubat.net"]
+            return [".hubofallthings.net", ".hubat.net", ".hat.direct"]
         }
         
-        return [".hubofallthings.net",  ".hat.direct", ".tamouk.hubat.net"]
+        return [".hubofallthings.net", ".hat.direct"]
     }
 }
 
@@ -105,8 +105,6 @@ internal struct SideMenu {
         
         return [["Recent offers": "recentOffersViewController"],
                 ["My offers": "offersViewController"],
-//                ["My public profile": "phata"],
-//                ["My preferences": "myPreferences"],
                 ["Settings": "settings"]]
     }
 }

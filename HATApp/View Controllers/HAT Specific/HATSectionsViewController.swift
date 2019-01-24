@@ -39,7 +39,7 @@ internal class HATSectionsViewController: HATUIViewController, UITableViewDelega
     /// The sections of the table view
     private let sections: [String] = ["Datatrader settings", "My account", "Version", "Vendor (where you got your HAT)", "HAT Issuer"]
     /// The rows in each section of the table view
-    private let rows: [[String]] = [["Tech support", "Terms of service"], ["Go to my HAT app", "See my HAT enabled data", "See my data transaction history", "Reset password"], [""], ["Checking..."], ["Checking..."]]
+    private let rows: [[String]] = [["Tech support", "Terms of service"], ["Go to my HAT app", "See my HAT enabled data", "See my data transaction history on HAT App", "Reset password"], [""], ["Checking..."], ["Checking..."]]
     
     @IBAction func logOutButonAction(_ sender: Any) {
         
@@ -230,7 +230,10 @@ internal class HATSectionsViewController: HATUIViewController, UITableViewDelega
                 self.performSegue(withIdentifier: SeguesConstants.dataplugsSegue, sender: self)
             } else if indexPath.row == 2 {
                 
-                self.performSegue(withIdentifier: SeguesConstants.dataDebitsSegue, sender: self)
+                if let appURL = URL(string: "hatapp://datadebit--\(self.userDomain)"), UIApplication.shared.canOpenURL(appURL) {
+                    
+                    UIApplication.shared.open(appURL, options: [:], completionHandler: nil)
+                }
             } else if indexPath.row == 3 {
                 
                 self.performSegue(withIdentifier: SeguesConstants.resetPasswordSegue, sender: self)

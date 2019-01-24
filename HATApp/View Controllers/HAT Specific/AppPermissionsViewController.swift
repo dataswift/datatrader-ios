@@ -208,7 +208,7 @@ class AppPermissionsViewController: HATUIViewController, UITableViewDelegate, UI
                     if UIApplication.shared.canOpenURL(appURL) {
                         
                         let appID = self.app!.application.id
-                        let url = "https://\(self.userDomain)/#/hatlogin?name=\(appID)&redirect=\(appURL)&fallback=hatapp://dismisssafari"
+                        let url = "https://\(self.userDomain)/#/hatlogin?name=\(appID)&redirect=\(appURL)&fallback=\(Auth.urlScheme)://dismisssafari"
                         self.openInSafari(url: url, animated: true, completion: nil)
                     } else {
                         

@@ -84,9 +84,21 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
         
         self.showPopUp(message: "Fetching offers...", buttonTitle: nil, buttonAction: nil)
         
+        var databuyerName: String {
+            
+            if AppStatusManager.isAppBeta() {
+                
+                return "databuyerstaging"
+            } else {
+                
+                return "databuyer"
+            }
+        }
+        
         HATDataOffersService.getAvailableDataOffers(
             userDomain: self.userDomain,
             userToken: userToken,
+            databuyer: databuyerName,
             merchants: ["datatrader"],
             succesfulCallBack: receivedOffers,
             failCallBack: databuyerOffersError)
@@ -249,10 +261,21 @@ class OffersViewController: HATUIViewController, UICollectionViewDelegate, UICol
     
     private func getDataDebit(dataDebitID: String) {
         
+        var databuyerName: String {
+            
+            if AppStatusManager.isAppBeta() {
+                
+                return "databuyerstaging"
+            } else {
+                
+                return "databuyer"
+            }
+        }
+        
         HATService.getApplicationTokenFor(
             userDomain: self.userDomain,
             userToken: self.userToken,
-            appName: "databuyerstaging",
+            appName: databuyerName,
             succesfulCallBack: { [weak self] appToken, newUserToken in
                 
                 guard let weakSelf = self else { return }
