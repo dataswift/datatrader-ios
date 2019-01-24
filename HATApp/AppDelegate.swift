@@ -13,7 +13,7 @@
 
 import Crashlytics
 import Fabric
-import UIKit
+import Firebase
 import UserNotifications
 
 @UIApplicationMain
@@ -25,6 +25,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UserCredentialsProtocol {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        var firebasePlistFileName = "GoogleService-Info"
+        if AppStatusManager.isAppBeta() {
+            
+            firebasePlistFileName = "GoogleService-Testing-Info"
+        }
+        let firebaseOptions = FirebaseOptions(contentsOfFile: Bundle.main.path(forResource: firebasePlistFileName, ofType: "plist")!)
+        FirebaseApp.configure(options: firebaseOptions!)
         Fabric.with([Crashlytics.self])
         
         RealmManager.migrateDB()
